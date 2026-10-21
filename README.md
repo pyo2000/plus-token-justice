@@ -1,6 +1,6 @@
 # Justice for PlusToken Victims
 
-A multilingual public appeal site with a randomized schedule of one to seven posts per UTC week. GitHub Pages hosts the site, and GitHub Actions publishes due posts and deploys updates.
+A multilingual public appeal site. One appeal is scheduled at a random time every 24–48 hours; about 40% of intervals also include a second appeal 6–12 hours later. GitHub Actions checks every 15 minutes and publishes due posts.
 
 ## Edit posts
 

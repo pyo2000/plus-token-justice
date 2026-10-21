@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: "17 * * * *"
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -30,8 +30,10 @@ jobs:
         with:
           python-version: "3.x"
       - name: Publish due posts
+        id: publish
         run: python publisher.py
       - name: Build crawlable pages and sitemap
+        if: ${{ steps.publish.outputs.published == 'true' || github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && !startsWith(github.event.head_commit.message, 'Update scheduled appeals')) }}
         run: python build_search.py
       - name: Save publication state
         run: |
@@ -43,11 +45,14 @@ jobs:
             git push
           fi
       - name: Configure Pages
+        if: ${{ steps.publish.outputs.published == 'true' || github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && !startsWith(github.event.head_commit.message, 'Update scheduled appeals')) }}
         uses: actions/configure-pages@v5
       - name: Upload site
+        if: ${{ steps.publish.outputs.published == 'true' || github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && !startsWith(github.event.head_commit.message, 'Update scheduled appeals')) }}
         uses: actions/upload-pages-artifact@v4
         with:
           path: "."
       - name: Deploy site
+        if: ${{ steps.publish.outputs.published == 'true' || github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && !startsWith(github.event.head_commit.message, 'Update scheduled appeals')) }}
         id: deployment
         uses: actions/deploy-pages@v4
