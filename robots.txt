@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pyo2000.github.io/plus-token-justice/sitemap.xml

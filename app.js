@@ -24,8 +24,7 @@ async function init() {
     renderPost(posts[0]);
     document.querySelector("#post-date").textContent = new Intl.DateTimeFormat(undefined, { dateStyle: "medium" }).format(new Date(posts[0].published));
     const archive = document.querySelector("#archive");
-    archive.innerHTML = posts.slice(1).map((post, index) => `<article class="archive-item"><div><h3>${escapeHtml(post.translations.en?.title || post.id)}</h3><p>${new Intl.DateTimeFormat(undefined, { dateStyle: "medium" }).format(new Date(post.published))} · ${escapeHtml(post.category)}</p></div><button type="button" data-post-index="${index + 1}">Read →</button></article>`).join("") || `<p class="post-meta">New appeals will appear here as they are published.</p>`;
-    archive.querySelectorAll("[data-post-index]").forEach(button => button.addEventListener("click", () => { renderPost(posts[Number(button.dataset.postIndex)]); document.querySelector("#latest").scrollIntoView({ behavior: "smooth" }); }));
+    archive.innerHTML = posts.slice(1).map(post => `<article class="archive-item"><div><h3>${escapeHtml(post.translations.en?.title || post.id)}</h3><p>${new Intl.DateTimeFormat(undefined, { dateStyle: "medium" }).format(new Date(post.published))} · ${escapeHtml(post.category)}</p></div><a href="posts/${encodeURIComponent(post.id)}/en/">Read →</a></article>`).join("") || `<p class="post-meta">New appeals will appear here as they are published.</p>`;
   } catch (error) {
     document.querySelector("#latest-post").innerHTML = `<p class="post-meta">The post feed could not be loaded. Please try again later.</p>`;
   }

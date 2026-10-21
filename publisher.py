@@ -26,12 +26,11 @@ def save_json(path: Path, data: dict) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def make_week_schedule(start: datetime) -> list[str]:
-    # A variable weekly count keeps the cadence within the requested range.
+def make_week_schedule(start: datetime, now: datetime) -> list[str]:
     count = random.randint(1, 7)
-    seconds_in_week = 7 * 24 * 60 * 60
-    offsets = sorted(random.sample(range(0, seconds_in_week), count))
-    return [(start + timedelta(seconds=offset)).isoformat(timespec="seconds") for offset in offsets]
+    remaining_seconds = max(1, int((start + timedelta(days=7) - now).total_seconds()))
+    offsets = sorted(random.sample(range(1, remaining_seconds + 1), min(count, remaining_seconds)))
+    return [(now + timedelta(seconds=offset)).isoformat(timespec="seconds") for offset in offsets]
 
 
 def main() -> None:
@@ -42,27 +41,31 @@ def main() -> None:
     week_key = start.date().isoformat()
 
     if state.get("week") != week_key:
-        state = {"week": week_key, "slots": make_week_schedule(start), "published_slots": []}
+        state = {"week": week_key, "slots": make_week_schedule(start, now), "published_slots": []}
 
-    templates = posts.get("templates") or posts.get("posts") or []
+    templates = posts.get("templates") or []
     if not templates:
         raise SystemExit("Add at least one translated post before enabling automatic publishing.")
 
     due = [slot for slot in state["slots"] if slot <= now.isoformat(timespec="seconds") and slot not in state["published_slots"]]
     for slot in due:
-        template = templates[len(posts["posts"]) % len(templates)]
+        recent_ids = state.setdefault("recent_template_ids", [])
+        available = [template for template in templates if template["template_id"] not in recent_ids[-3:]]
+        if not available:
+            available = templates
+        template = random.choice(available)
         publication = json.loads(json.dumps(template))
+        publication.pop("template_id", None)
         publication["id"] = f"appeal-{datetime.fromisoformat(slot).strftime('%Y%m%d-%H%M')}"
         publication["published"] = slot
         posts["posts"].append(publication)
+        recent_ids.append(template["template_id"])
+        state["recent_template_ids"] = recent_ids[-3:]
         state["published_slots"].append(slot)
 
     save_json(POSTS_FILE, posts)
     save_json(STATE_FILE, state)
-    if due:
-        print(f"Published {len(due)} post(s).")
-    else:
-        print("No publication due.")
+    print(f"Published {len(due)} post(s)." if due else "No publication due.")
 
 
 if __name__ == "__main__":
