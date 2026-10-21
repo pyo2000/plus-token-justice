@@ -1,0 +1,50 @@
+{
+  "posts": [
+    {
+      "id": "appeal-001",
+      "published": "2026-10-21T09:00:00Z",
+      "category": "Public appeal",
+      "translations": {
+        "en": {
+          "title": "Victims still need clear answers",
+          "body": "Years have passed, yet many people affected by PlusToken still have unanswered questions about the case and the assets seized by authorities.\n\nWe respectfully call on the relevant authorities to provide a transparent, verifiable public account of the seized assets and explain whether a restitution process exists, who is eligible, and how claims may be submitted.\n\nVictims deserve accurate information, fair treatment, and access to a clear process. Please share verified updates and keep this appeal peaceful and respectful."
+        },
+        "ko": {
+          "title": "피해자에게는 여전히 명확한 답변이 필요합니다",
+          "body": "시간이 흘렀지만 플러스토큰 사건으로 피해를 입은 많은 사람은 여전히 사건의 진행 상황과 당국이 압수한 자산에 대해 답을 기다리고 있습니다.\n\n관련 당국에 압수 자산에 관한 투명하고 검증 가능한 공개 설명을 요청합니다. 피해자 구제 절차가 있는지, 신청 자격과 방법은 무엇인지 명확히 알려 주십시오.\n\n피해자에게는 정확한 정보와 공정한 대우, 이해하기 쉬운 절차가 필요합니다. 확인된 정보를 공유하고 평화롭고 예의 있게 목소리를 내 주세요."
+        },
+        "de": {
+          "title": "Betroffene brauchen weiterhin klare Antworten",
+          "body": "Viele vom PlusToken-Fall Betroffene warten weiterhin auf Antworten zum Verfahren und zu den von den Behörden beschlagnahmten Vermögenswerten.\n\nWir bitten die zuständigen Behörden um eine transparente und überprüfbare öffentliche Darstellung der beschlagnahmten Vermögenswerte sowie um klare Informationen darüber, ob es ein Entschädigungsverfahren gibt, wer anspruchsberechtigt ist und wie Anträge gestellt werden können.\n\nBetroffene verdienen verlässliche Informationen, faire Behandlung und ein nachvollziehbares Verfahren. Bitte teilen Sie bestätigte Informationen und bleiben Sie friedlich und respektvoll."
+        },
+        "zh": {
+          "title": "受害者仍需要明确答复",
+          "body": "时至今日，许多受到 PlusToken 案影响的人仍在等待有关案件进展及当局查扣资产的答复。\n\n我们恳请相关部门公开、透明且可核实地说明查扣资产的情况，并明确是否存在受害者救济程序、申请资格以及提交申请的方式。\n\n受害者应当获得准确的信息、公平的对待和清晰的程序。请分享经核实的信息，并以和平、理性的方式表达诉求。"
+        }
+      }
+    },
+    {
+      "id": "appeal-002",
+      "published": "2026-10-21T09:00:00Z",
+      "category": "Transparency",
+      "translations": {
+        "en": {
+          "title": "Publish a clear path for victims to seek restitution",
+          "body": "People affected by PlusToken need a reliable source of information about any restitution process. We ask the relevant authorities to publish official guidance, eligibility criteria, required documents, and a way to check claims.\n\nA clear public process can reduce confusion and protect victims from false recovery offers. Please rely on official notices and never pay an upfront fee to someone promising guaranteed recovery."
+        },
+        "ko": {
+          "title": "피해자가 구제를 신청할 수 있는 명확한 절차를 공개해 주세요",
+          "body": "플러스토큰 피해자에게는 구제 절차가 있는지 확인할 수 있는 신뢰할 만한 정보가 필요합니다. 관련 당국에 공식 안내, 신청 자격, 필요 서류, 신청 상태 확인 방법을 공개해 달라고 요청합니다.\n\n명확한 공개 절차는 혼란을 줄이고 피해자를 허위 회수 제안으로부터 보호할 수 있습니다. 공식 공지를 확인하고, 회수를 보장한다며 선입금을 요구하는 사람에게 돈을 보내지 마세요."
+        },
+        "de": {
+          "title": "Ein klarer Weg zur Entschädigung für Betroffene",
+          "body": "Betroffene des PlusToken-Falls brauchen eine verlässliche Informationsquelle zu einem möglichen Entschädigungsverfahren. Wir bitten die zuständigen Behörden, offizielle Hinweise, Anspruchskriterien, erforderliche Unterlagen und eine Möglichkeit zur Statusabfrage zu veröffentlichen.\n\nEin klares öffentliches Verfahren kann Verwirrung verringern und Betroffene vor falschen Rückholangeboten schützen. Bitte prüfen Sie offizielle Mitteilungen und zahlen Sie niemandem eine Vorausgebühr für eine angeblich garantierte Rückzahlung."
+        },
+        "zh": {
+          "title": "请公布受害者申请救济的明确途径",
+          "body": "PlusToken 案受影响者需要可靠的信息来源，以了解是否存在资产返还程序。我们呼吁相关部门公布官方指南、申请资格、所需材料以及查询申请进度的方式。\n\n清晰公开的程序有助于减少混乱，并保护受害者免受虚假追款服务侵害。请以官方通知为准，切勿向承诺保证追回资金的人支付预付款。"
+        }
+      }
+    }
+  ]
+}
