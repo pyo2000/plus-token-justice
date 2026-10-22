@@ -8,7 +8,7 @@ from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parent
 SITE = "https://pyo2000.github.io/plus-token-justice"
-LANGUAGE_NAMES = {"en": "English", "ko": "한국어", "de": "Deutsch", "zh": "中文"}
+LANGUAGE_NAMES = {"en": "English", "ko": "한국어", "de": "Deutsch", "zh": "中文", "ja": "日本語"}
 
 
 def clean_text(value: str) -> str:

@@ -4,7 +4,7 @@ A multilingual public appeal site. One appeal is scheduled at a random time ever
 
 ## Edit posts
 
-Open `posts.json` in the GitHub repository and choose the pencil icon. Edit a translation's `title` or `body` under `en`, `ko`, `de`, or `zh`, then commit. Keep the JSON quotes and commas intact. The workflow runs after a commit to `main` and republishes the site.
+Open `posts.json` in the GitHub repository and choose the pencil icon. Edit a translation's `title` or `body` under `en`, `ko`, `de`, `zh`, or `ja`, then commit. Keep the JSON quotes and commas intact. The workflow runs after a commit to `main` and republishes the site.
 
 To pause automatic publishing, disable **Publish and deploy appeals** in the repository's Actions tab.
 

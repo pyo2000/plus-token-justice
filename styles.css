@@ -3,3 +3,5 @@
 .topbar-right{display:flex;align-items:center;gap:22px}.main-nav{display:flex;align-items:center;gap:24px}.main-nav a{color:var(--muted);font-size:13px;font-weight:650;text-decoration:none}.main-nav a:hover{color:var(--teal)}.site-language{min-width:116px;padding:9px 30px 9px 12px;border:1px solid var(--line);border-radius:4px;background:#fff;color:var(--teal-dark);font:600 13px system-ui,sans-serif;cursor:pointer}.site-language:focus-visible,.main-nav a:focus-visible,.quiet-link:focus-visible{outline:3px solid #b42332;outline-offset:3px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}@media(max-width:760px){.topbar{height:auto;min-height:72px;gap:10px;padding-top:12px;padding-bottom:12px}.topbar-right{gap:10px}.main-nav{gap:10px}.main-nav a{font-size:12px}.site-language{min-width:100px;padding:8px 22px 8px 8px;font-size:12px}}
 
 @media(max-width:760px){.topbar{flex-wrap:wrap}.topbar-right{width:100%;justify-content:space-between}}
+
+.language-tags{flex-wrap:wrap}

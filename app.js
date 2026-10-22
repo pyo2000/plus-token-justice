@@ -1,6 +1,6 @@
-const SUPPORTED_LANGUAGES = ["en", "ko", "de", "zh"];
-const LANGUAGE_LABELS = { en: "English", ko: "한국어", de: "Deutsch", zh: "中文" };
-const DATE_LOCALES = { en: "en-US", ko: "ko-KR", de: "de-DE", zh: "zh-CN" };
+const SUPPORTED_LANGUAGES = ["en", "ko", "de", "zh", "ja"];
+const LANGUAGE_LABELS = { en: "English", ko: "한국어", de: "Deutsch", zh: "中文", ja: "日本語" };
+const DATE_LOCALES = { en: "en-US", ko: "ko-KR", de: "de-DE", zh: "zh-CN", ja: "ja-JP" };
 const COPY = {
   en: {
     nav_latest: "Latest appeal", nav_requests: "Our requests", nav_about: "About this campaign",
@@ -10,7 +10,7 @@ const COPY = {
     latest_eyebrow: "From the community", latest_title: "Latest appeal", archive_eyebrow: "The record", archive_title: "Previous posts",
     address_eyebrow: "Who we are addressing", address_title: "Chinese authorities", address_body: "We ask the authorities handling the PlusToken case to provide public, verifiable answers about seized assets and victim restitution.",
     request_eyebrow: "Our request", request_title: "Transparency and remedy", request_body: "We ask relevant authorities to publish accessible, verifiable updates and explain whether and how affected people may submit claims for seized assets.",
-    languages_eyebrow: "Languages", languages_body: "Choose English, Korean, German, or Chinese using the menu above.",
+    languages_eyebrow: "Languages", languages_body: "Choose English, Korean, German, Chinese, or Japanese using the menu above.",
     schedule_eyebrow: "Publishing schedule", schedule_title: "Every one or two days", schedule_body: "At least one appeal is scheduled at a random time. Some intervals include a second appeal 6–12 hours later.",
     share_title: "Share responsibly", share_body: "Share public information and personal experiences without threats, private details, or unverified accusations.",
     requests_eyebrow: "What we are asking for", requests_title: "Three clear answers for PlusToken victims",
@@ -28,7 +28,7 @@ const COPY = {
     latest_eyebrow: "피해자 목소리", latest_title: "최신 호소문", archive_eyebrow: "기록", archive_title: "이전 게시물",
     address_eyebrow: "요청 대상", address_title: "중국 당국", address_body: "플러스토큰 사건 담당 당국에 압수 자산과 피해자 구제에 관한 공개적이고 검증 가능한 답변을 요청합니다.",
     request_eyebrow: "우리의 요청", request_title: "투명한 정보와 피해 구제", request_body: "관련 당국에 확인 가능한 진행 상황을 공개하고 피해자가 압수 자산 반환을 신청할 수 있는지, 방법은 무엇인지 설명해 달라고 요청합니다.",
-    languages_eyebrow: "언어", languages_body: "위 메뉴에서 영어, 한국어, 독일어 또는 중국어를 선택할 수 있습니다.",
+    languages_eyebrow: "언어", languages_body: "위 메뉴에서 영어, 한국어, 독일어, 중국어 또는 일본어를 선택할 수 있습니다.",
     schedule_eyebrow: "게시 일정", schedule_title: "하루 또는 이틀 간격", schedule_body: "매번 게시 시각은 무작위로 정해집니다. 일부 일정에는 6~12시간 뒤 추가 게시물이 올라옵니다.",
     share_title: "책임 있게 공유해 주세요", share_body: "위협, 개인정보 또는 확인되지 않은 주장을 게시하지 말고 공개 정보와 개인 경험을 공유해 주세요.",
     requests_eyebrow: "우리가 요구하는 것", requests_title: "플러스토큰 피해자를 위한 세 가지 답변",
@@ -46,7 +46,7 @@ const COPY = {
     latest_eyebrow: "Aus der Gemeinschaft", latest_title: "Aktueller Aufruf", archive_eyebrow: "Dokumentation", archive_title: "Frühere Beiträge",
     address_eyebrow: "An wen wir uns wenden", address_title: "Chinesische Behörden", address_body: "Wir bitten die für den PlusToken-Fall zuständigen Behörden um öffentliche, überprüfbare Antworten zu beschlagnahmten Vermögenswerten und zur Entschädigung der Betroffenen.",
     request_eyebrow: "Unsere Forderung", request_title: "Transparenz und Abhilfe", request_body: "Wir bitten die zuständigen Behörden um zugängliche, überprüfbare Informationen und um eine Erklärung, ob und wie Betroffene Ansprüche auf beschlagnahmte Vermögenswerte geltend machen können.",
-    languages_eyebrow: "Sprachen", languages_body: "Wählen Sie oben Englisch, Koreanisch, Deutsch oder Chinesisch.",
+    languages_eyebrow: "Sprachen", languages_body: "Wählen Sie oben Englisch, Koreanisch, Deutsch, Chinesisch oder Japanisch.",
     schedule_eyebrow: "Veröffentlichungsrhythmus", schedule_title: "Alle ein bis zwei Tage", schedule_body: "Mindestens ein Aufruf erscheint zu einer zufällig gewählten Uhrzeit. Manchmal folgt sechs bis zwölf Stunden später ein weiterer.",
     share_title: "Bitte verantwortungsvoll teilen", share_body: "Teilen Sie öffentliche Informationen und persönliche Erfahrungen, jedoch keine Drohungen, privaten Daten oder unbestätigten Anschuldigungen.",
     requests_eyebrow: "Was wir fordern", requests_title: "Drei klare Antworten für PlusToken-Betroffene",
@@ -56,6 +56,24 @@ const COPY = {
     requests_note: "Diese Kampagne fordert Transparenz und ein faires Verfahren. Sie verspricht keine bestimmte Auszahlung oder Rückholung.",
     footer_note: "Sachlich, friedlich und offen für alle.", choose_language: "Sprache auswählen", loading: "Der aktuelle Aufruf wird geladen…", read: "Lesen →", empty_archive: "Neue Aufrufe erscheinen hier nach ihrer Veröffentlichung.", feed_error: "Die Beiträge konnten nicht geladen werden. Bitte versuchen Sie es später erneut.", choose_post_language: "Sprache des Beitrags auswählen"
   },
+  ja: {
+    nav_latest: "最新の訴え", nav_requests: "私たちの要望", nav_about: "このキャンペーンについて",
+    hero_eyebrow: "PlusToken · 中国 · 被害者救済", hero_title: "被害者は7年間、待ち続けています。", hero_title_em: "明確な回答が必要です。",
+    hero_intro: "PlusToken事件に関連して押収された資産について、検証可能な情報を公開し、被害者が救済を申請する方法を説明するよう中国当局に求めます。",
+    hero_button: "最新の訴えを読む", hero_button_secondary: "3つの要望を見る", hero_note: "独立した市民活動です。政府機関や資産回収業者とは関係ありません。",
+    latest_eyebrow: "コミュニティから", latest_title: "最新の訴え", archive_eyebrow: "記録", archive_title: "過去の投稿",
+    address_eyebrow: "要望先", address_title: "中国当局", address_body: "PlusToken事件を担当する当局に対し、押収資産と被害者救済について、公開された検証可能な回答を求めます。",
+    request_eyebrow: "私たちの要望", request_title: "透明性と救済", request_body: "関係当局に、確認可能な進捗情報を公開し、被害者が押収資産の返還を申請できるか、またその方法を説明するよう求めます。",
+    languages_eyebrow: "言語", languages_body: "上のメニューから英語、韓国語、ドイツ語、中国語、日本語を選べます。",
+    schedule_eyebrow: "投稿予定", schedule_title: "1～2日ごと", schedule_body: "投稿時刻は毎回ランダムに設定されます。一部の日程では、6～12時間後に追加の投稿が行われます。",
+    share_title: "責任を持って共有してください", share_body: "脅迫、個人情報、未確認の主張を避け、公開情報や個人の経験を共有してください。",
+    requests_eyebrow: "私たちが求めること", requests_title: "PlusToken被害者への3つの明確な回答",
+    request1_title: "押収資産の内容を公開する", request1_body: "PlusToken事件で押収された資産と現在の状況について、公式かつ検証可能な情報を公開してください。",
+    request2_title: "法的な処理手続きを説明する", request2_body: "担当機関と、資産について決定された内容を明らかにしてください。",
+    request3_title: "被害者救済の申請方法を示す", request3_body: "申請の可否、必要書類、進捗状況の確認方法を被害者に知らせてください。",
+    requests_note: "この活動は透明性と公正な手続きを求めるものです。特定の返金や資産回収を保証するものではありません。",
+    footer_note: "事実に基づき、平和的に、誰でも参加できます。", choose_language: "言語を選択", loading: "最新の訴えを読み込んでいます…", read: "読む →", empty_archive: "新しい訴えは公開後ここに表示されます。", feed_error: "投稿を読み込めませんでした。後でもう一度お試しください。", choose_post_language: "投稿の言語を選択"
+  },
   zh: {
     nav_latest: "最新呼吁", nav_requests: "我们的诉求", nav_about: "关于本行动",
     hero_eyebrow: "PlusToken · 中国 · 受害者救济", hero_title: "受害者已等待七年。", hero_title_em: "他们应当得到答复。",
@@ -64,7 +82,7 @@ const COPY = {
     latest_eyebrow: "受害者心声", latest_title: "最新呼吁", archive_eyebrow: "记录", archive_title: "以往文章",
     address_eyebrow: "诉求对象", address_title: "中国有关部门", address_body: "我们请负责 PlusToken 案的部门公开、可核实地说明查扣资产情况及受害者救济安排。",
     request_eyebrow: "我们的诉求", request_title: "公开信息与救济", request_body: "我们呼吁有关部门发布清晰、可核实的进展，并说明受影响者能否以及如何申请查扣资产返还。",
-    languages_eyebrow: "语言", languages_body: "请使用上方菜单选择英语、韩语、德语或中文。",
+    languages_eyebrow: "语言", languages_body: "请使用上方菜单选择英语、韩语、德语、中文或日语。",
     schedule_eyebrow: "发布安排", schedule_title: "每隔一至两天", schedule_body: "每篇呼吁的发布时间随机安排；部分时段会在 6 至 12 小时后再发布一篇。",
     share_title: "请负责任地分享", share_body: "分享公开信息和个人经历时，请勿发布威胁、隐私信息或未经核实的指控。",
     requests_eyebrow: "我们的具体诉求", requests_title: "请为 PlusToken 受害者明确答复三件事",
