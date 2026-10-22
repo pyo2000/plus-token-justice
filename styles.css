@@ -5,3 +5,5 @@
 @media(max-width:760px){.topbar{flex-wrap:wrap}.topbar-right{width:100%;justify-content:space-between}}
 
 .language-tags{flex-wrap:wrap}
+
+.brand{display:inline-flex;align-items:center;gap:10px;color:#a6192e;font-size:17px;font-weight:950;letter-spacing:.12em;line-height:1.2}.brand span{display:inline-block;padding-left:10px;border-left:2px solid #b42332;color:#4a101b;font-size:11px;font-weight:850;letter-spacing:.1em}@media(max-width:760px){.brand{gap:7px;font-size:15px;letter-spacing:.1em}.brand span{padding-left:7px;font-size:9px;letter-spacing:.06em}}
