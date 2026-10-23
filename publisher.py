@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parent
 POSTS_FILE = ROOT / "posts.json"
 STATE_FILE = ROOT / "schedule.json"
 UTC = timezone.utc
-CADENCE = "random-24-48-hours-v1"
+CADENCE = "random-8-24-hours-v1"
 
 
 def load_json(path: Path, default: dict) -> dict:
@@ -24,14 +24,13 @@ def save_json(path: Path, data: dict) -> None:
 
 
 def random_interval() -> timedelta:
-    return timedelta(minutes=random.randint(24 * 60, 48 * 60))
+    return timedelta(minutes=random.randint(8 * 60, 24 * 60))
 
 
 def initialize_schedule(now: datetime) -> dict:
     return {
         "cadence": CADENCE,
         "next_base": (now + random_interval()).isoformat(timespec="minutes"),
-        "extra_slots": [],
         "published_slots": [],
         "recent_template_ids": [],
     }
@@ -48,28 +47,14 @@ def main() -> None:
     if not templates:
         raise SystemExit("Add at least one translated post before enabling automatic publishing.")
 
-    due = []
     next_base = datetime.fromisoformat(state["next_base"])
-    if next_base < now - timedelta(hours=48):
+    if next_base < now - timedelta(hours=24):
         # Skip stale slots after a long workflow pause instead of publishing a backlog at once.
         next_base = now + random_interval()
         state["next_base"] = next_base.isoformat(timespec="minutes")
-        state["extra_slots"] = []
-    if next_base <= now:
-        due.append((next_base.isoformat(timespec="minutes"), "regular"))
-        state["next_base"] = (next_base + random_interval()).isoformat(timespec="minutes")
-        if random.random() < 0.4:
-            extra = next_base + timedelta(minutes=random.randint(6 * 60, 12 * 60))
-            state.setdefault("extra_slots", []).append(extra.isoformat(timespec="minutes"))
-
-    state["extra_slots"] = [
-        slot for slot in state.get("extra_slots", [])
-        if datetime.fromisoformat(slot) >= now - timedelta(hours=48)
-    ]
-    due.extend((slot, "extra") for slot in state["extra_slots"] if slot <= now.isoformat(timespec="minutes"))
-    due = sorted(due)[:1]
-
-    for slot, _kind in due:
+    due = next_base <= now
+    if due:
+        slot = next_base.isoformat(timespec="minutes")
         recent_ids = state.setdefault("recent_template_ids", [])
         available = [template for template in templates if template["template_id"] not in recent_ids[-3:]]
         if not available:
@@ -77,18 +62,18 @@ def main() -> None:
         template = random.choice(available)
         publication = json.loads(json.dumps(template))
         publication.pop("template_id", None)
-        publication["id"] = f"appeal-{datetime.fromisoformat(slot).strftime('%Y%m%d-%H%M')}"
-        publication["published"] = slot
+        publication["id"] = f"appeal-{now.strftime('%Y%m%d-%H%M')}"
+        publication["published"] = now.isoformat(timespec="minutes")
         posts["posts"].append(publication)
         recent_ids.append(template["template_id"])
         state["recent_template_ids"] = recent_ids[-3:]
         state["published_slots"].append(slot)
-        if _kind == "extra":
-            state["extra_slots"].remove(slot)
+        # Count the next interval from publication time so workflow delays cannot shorten it.
+        state["next_base"] = (now + random_interval()).isoformat(timespec="minutes")
 
     save_json(POSTS_FILE, posts)
     save_json(STATE_FILE, state)
-    print(f"Published {len(due)} post(s)." if due else "No publication due.")
+    print("Published 1 post." if due else "No publication due.")
     if output_path := os.environ.get("GITHUB_OUTPUT"):
         with Path(output_path).open("a", encoding="utf-8") as output:
             output.write(f"published={'true' if due else 'false'}\n")

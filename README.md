@@ -1,6 +1,6 @@
 # Justice for PlusToken Victims
 
-A multilingual public appeal site. One appeal is scheduled at a random time every 24–48 hours; about 40% of intervals also include a second appeal 6–12 hours later. GitHub Actions checks every 15 minutes and publishes due posts.
+A multilingual public appeal site. One appeal is scheduled at a random time every 8–24 hours. GitHub Actions checks every 15 minutes and publishes a due post.
 
 ## Edit posts
 
