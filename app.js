@@ -1,6 +1,7 @@
 const SUPPORTED_LANGUAGES = ["en", "ko", "de", "zh", "ja"];
 const LANGUAGE_LABELS = { en: "English", ko: "한국어", de: "Deutsch", zh: "中文", ja: "日本語" };
 const DATE_LOCALES = { en: "en-US", ko: "ko-KR", de: "de-DE", zh: "zh-CN", ja: "ja-JP" };
+const DATE_TIME_ZONE = "Asia/Seoul";
 const COPY = {
   en: {
     nav_latest: "Latest appeal", nav_requests: "Our requests", nav_about: "About this campaign",
@@ -117,7 +118,7 @@ function applyLanguage(language) {
   try { localStorage.setItem("plus-token-language", currentLanguage); } catch { /* Preference is optional. */ }
   if (posts.length) {
     renderPost(posts[0]);
-    document.querySelector("#post-date").textContent = new Intl.DateTimeFormat(DATE_LOCALES[currentLanguage], { dateStyle: "medium" }).format(new Date(posts[0].published));
+    document.querySelector("#post-date").textContent = new Intl.DateTimeFormat(DATE_LOCALES[currentLanguage], { dateStyle: "medium", timeZone: DATE_TIME_ZONE }).format(new Date(posts[0].published));
     renderArchive();
   }
 }
@@ -138,7 +139,7 @@ function renderArchive() {
   const archive = document.querySelector("#archive");
   archive.innerHTML = posts.slice(1).map((post) => {
     const translation = post.translations[currentLanguage] || post.translations.en;
-    const date = new Intl.DateTimeFormat(DATE_LOCALES[currentLanguage], { dateStyle: "medium" }).format(new Date(post.published));
+    const date = new Intl.DateTimeFormat(DATE_LOCALES[currentLanguage], { dateStyle: "medium", timeZone: DATE_TIME_ZONE }).format(new Date(post.published));
     const language = post.translations[currentLanguage] ? currentLanguage : "en";
     return `<article class="archive-item"><div><h3>${escapeHtml(translation?.title || post.id)}</h3><p>${date} · ${escapeHtml(post.category)}</p></div><a href="posts/${encodeURIComponent(post.id)}/${language}/">${COPY[currentLanguage].read}</a></article>`;
   }).join("") || `<p class="post-meta">${COPY[currentLanguage].empty_archive}</p>`;
@@ -156,7 +157,7 @@ async function init() {
     posts = [...data.posts].sort((a, b) => new Date(b.published) - new Date(a.published));
     if (!posts.length) throw new Error("No published posts");
     renderPost(posts[0]);
-    document.querySelector("#post-date").textContent = new Intl.DateTimeFormat(DATE_LOCALES[currentLanguage], { dateStyle: "medium" }).format(new Date(posts[0].published));
+    document.querySelector("#post-date").textContent = new Intl.DateTimeFormat(DATE_LOCALES[currentLanguage], { dateStyle: "medium", timeZone: DATE_TIME_ZONE }).format(new Date(posts[0].published));
     renderArchive();
   } catch {
     document.querySelector("#latest-post").innerHTML = `<p class="post-meta">${COPY[currentLanguage].feed_error}</p>`;

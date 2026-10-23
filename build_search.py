@@ -3,12 +3,22 @@ from __future__ import annotations
 import html
 import json
 import re
+from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import quote
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent
 SITE = "https://pyo2000.github.io/plus-token-justice"
 LANGUAGE_NAMES = {"en": "English", "ko": "한국어", "de": "Deutsch", "zh": "中文", "ja": "日本語"}
+SEO_TIME_ZONE = ZoneInfo("Asia/Seoul")
+
+
+def local_publish_date(value: str) -> str:
+    published = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    if published.tzinfo is None:
+        published = published.replace(tzinfo=timezone.utc)
+    return published.astimezone(SEO_TIME_ZONE).date().isoformat()
 
 
 def clean_text(value: str) -> str:
@@ -31,7 +41,7 @@ def article_page(post: dict, language: str, translation: dict) -> str:
         f'<a href="{SITE}/posts/{post_id}/{quote(code)}/" lang="{html.escape(code)}">{html.escape(LANGUAGE_NAMES.get(code, code))}</a>'
         for code in post["translations"]
     )
-    published = html.escape(post["published"][:10])
+    published = html.escape(local_publish_date(post["published"]))
     category = html.escape(post.get("category", "Public appeal"))
     structured_data = json.dumps(
         {
@@ -79,11 +89,11 @@ def article_page(post: dict, language: str, translation: dict) -> str:
 
 def main() -> None:
     feed = json.loads((ROOT / "posts.json").read_text(encoding="utf-8-sig"))
-    published_dates = [post.get("published", "")[:10] for post in feed.get("posts", []) if post.get("published")]
+    published_dates = [local_publish_date(post["published"]) for post in feed.get("posts", []) if post.get("published")]
     urls = {f"{SITE}/": max(published_dates, default="")}
     for post in feed.get("posts", []):
         post_id = quote(post["id"], safe="")
-        lastmod = post.get("published", "")[:10]
+        lastmod = local_publish_date(post["published"])
         for language, translation in post.get("translations", {}).items():
             if not translation.get("title") or not translation.get("body"):
                 continue
