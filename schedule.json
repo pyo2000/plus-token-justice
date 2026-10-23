@@ -1,11 +1,6 @@
 {
-  "cadence": "random-24-48-hours-v1",
-  "next_base": "2026-10-24T09:42+00:00",
-  "extra_slots": [],
-  "published_slots": [
-    "2026-10-22T22:13+00:00"
-  ],
-  "recent_template_ids": [
-    "return-our-money"
-  ]
+  "cadence": "random-8-24-hours-v1",
+  "next_base": "2026-10-23T19:50+00:00",
+  "published_slots": [],
+  "recent_template_ids": []
 }
