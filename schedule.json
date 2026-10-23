@@ -1,6 +1,10 @@
 {
   "cadence": "random-8-24-hours-v1",
-  "next_base": "2026-10-23T19:50+00:00",
-  "published_slots": [],
-  "recent_template_ids": []
+  "next_base": "2026-10-24T22:12+00:00",
+  "published_slots": [
+    "2026-10-23T19:50+00:00"
+  ],
+  "recent_template_ids": [
+    "publish-asset-account"
+  ]
 }
