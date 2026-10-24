@@ -19,7 +19,7 @@ const COPY = {
     request2_title: "Explain the legal process", request2_body: "Clarify which authorities are responsible and what decisions have been made about those assets.",
     request3_title: "Provide a path to restitution", request3_body: "Tell victims whether they can submit claims, what evidence is needed, and how to check progress.",
     requests_note: "This campaign requests transparency and a fair process. It does not claim that a specific distribution or recovery is guaranteed.",
-    footer_note: "Factual, peaceful, and open to everyone.", choose_language: "Choose language", loading: "Loading the latest appeal…", read: "Read →", empty_archive: "New appeals will appear here as they are published.", feed_error: "The post feed could not be loaded. Please try again later.", choose_post_language: "Choose post language"
+    footer_note: "Factual, peaceful, and open to everyone.", choose_language: "Choose language", loading: "Loading the latest appeal…", read: "Read →", empty_archive: "New appeals will appear here as they are published.", feed_error: "The post feed could not be loaded. Please try again later.", choose_post_language: "Choose post language", page_previous: "Previous", page_next: "Next", page_label: "Page"
   },
   ko: {
     nav_latest: "최신 호소문", nav_requests: "요구사항", nav_about: "캠페인 소개",
@@ -37,7 +37,7 @@ const COPY = {
     request2_title: "법적 처리 절차 설명", request2_body: "담당 당국과 해당 자산에 대해 내려진 결정을 명확히 밝혀 주세요.",
     request3_title: "피해자 환급 절차 안내", request3_body: "피해자가 신청할 수 있는지, 필요한 증빙은 무엇인지, 진행 상황을 어떻게 확인하는지 알려 주세요.",
     requests_note: "이 캠페인은 투명한 정보 공개와 공정한 절차를 요청합니다. 특정한 환급이나 자산 회수를 보장하지 않습니다.",
-    footer_note: "사실에 근거하고 평화롭게, 누구나 참여할 수 있습니다.", choose_language: "언어 선택", loading: "최신 호소문을 불러오는 중…", read: "읽기 →", empty_archive: "새 호소문이 게시되면 여기에 표시됩니다.", feed_error: "게시물을 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.", choose_post_language: "게시물 언어 선택"
+    footer_note: "사실에 근거하고 평화롭게, 누구나 참여할 수 있습니다.", choose_language: "언어 선택", loading: "최신 호소문을 불러오는 중…", read: "읽기 →", empty_archive: "새 호소문이 게시되면 여기에 표시됩니다.", feed_error: "게시물을 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.", choose_post_language: "게시물 언어 선택", page_previous: "이전", page_next: "다음", page_label: "페이지"
   },
   de: {
     nav_latest: "Aktueller Aufruf", nav_requests: "Unsere Forderungen", nav_about: "Über diese Kampagne",
@@ -55,7 +55,7 @@ const COPY = {
     request2_title: "Das rechtliche Verfahren erklären", request2_body: "Klären Sie, welche Behörden zuständig sind und welche Entscheidungen zu diesen Vermögenswerten getroffen wurden.",
     request3_title: "Weg zur Entschädigung aufzeigen", request3_body: "Informieren Sie Betroffene, ob sie Anträge stellen können, welche Nachweise erforderlich sind und wie sie den Bearbeitungsstand prüfen können.",
     requests_note: "Diese Kampagne fordert Transparenz und ein faires Verfahren. Sie verspricht keine bestimmte Auszahlung oder Rückholung.",
-    footer_note: "Sachlich, friedlich und offen für alle.", choose_language: "Sprache auswählen", loading: "Der aktuelle Aufruf wird geladen…", read: "Lesen →", empty_archive: "Neue Aufrufe erscheinen hier nach ihrer Veröffentlichung.", feed_error: "Die Beiträge konnten nicht geladen werden. Bitte versuchen Sie es später erneut.", choose_post_language: "Sprache des Beitrags auswählen"
+    footer_note: "Sachlich, friedlich und offen für alle.", choose_language: "Sprache auswählen", loading: "Der aktuelle Aufruf wird geladen…", read: "Lesen →", empty_archive: "Neue Aufrufe erscheinen hier nach ihrer Veröffentlichung.", feed_error: "Die Beiträge konnten nicht geladen werden. Bitte versuchen Sie es später erneut.", choose_post_language: "Sprache des Beitrags auswählen", page_previous: "Zurück", page_next: "Weiter", page_label: "Seite"
   },
   ja: {
     nav_latest: "最新の訴え", nav_requests: "私たちの要望", nav_about: "このキャンペーンについて",
@@ -73,7 +73,7 @@ const COPY = {
     request2_title: "法的な処理手続きを説明する", request2_body: "担当機関と、資産について決定された内容を明らかにしてください。",
     request3_title: "被害者救済の申請方法を示す", request3_body: "申請の可否、必要書類、進捗状況の確認方法を被害者に知らせてください。",
     requests_note: "この活動は透明性と公正な手続きを求めるものです。特定の返金や資産回収を保証するものではありません。",
-    footer_note: "事実に基づき、平和的に、誰でも参加できます。", choose_language: "言語を選択", loading: "最新の訴えを読み込んでいます…", read: "読む →", empty_archive: "新しい訴えは公開後ここに表示されます。", feed_error: "投稿を読み込めませんでした。後でもう一度お試しください。", choose_post_language: "投稿の言語を選択"
+    footer_note: "事実に基づき、平和的に、誰でも参加できます。", choose_language: "言語を選択", loading: "最新の訴えを読み込んでいます…", read: "読む →", empty_archive: "新しい訴えは公開後ここに表示されます。", feed_error: "投稿を読み込めませんでした。後でもう一度お試しください。", choose_post_language: "投稿の言語を選択", page_previous: "前へ", page_next: "次へ", page_label: "ページ"
   },
   zh: {
     nav_latest: "最新呼吁", nav_requests: "我们的诉求", nav_about: "关于本行动",
@@ -91,12 +91,14 @@ const COPY = {
     request2_title: "解释法律处理程序", request2_body: "请说明由哪些部门负责，以及对相关资产已作出哪些决定。",
     request3_title: "公布受害者救济途径", request3_body: "请说明受害者能否提出申请、需要哪些证明，以及如何查询进度。",
     requests_note: "本行动呼吁信息透明和程序公平，不承诺一定能够获得返还或追回资产。",
-    footer_note: "以事实为基础，和平表达，欢迎所有人参与。", choose_language: "选择语言", loading: "正在加载最新呼吁…", read: "阅读 →", empty_archive: "新呼吁发布后会显示在这里。", feed_error: "暂时无法加载文章，请稍后再试。", choose_post_language: "选择文章语言"
+    footer_note: "以事实为基础，和平表达，欢迎所有人参与。", choose_language: "选择语言", loading: "正在加载最新呼吁…", read: "阅读 →", empty_archive: "新呼吁发布后会显示在这里。", feed_error: "暂时无法加载文章，请稍后再试。", choose_post_language: "选择文章语言", page_previous: "上一页", page_next: "下一页", page_label: "页"
   }
 };
 
 let posts = [];
 let currentLanguage = "en";
+let archivePage = 1;
+const ARCHIVE_PAGE_SIZE = 10;
 function getSavedLanguage() {
   try {
     const saved = localStorage.getItem("plus-token-language");
@@ -137,12 +139,34 @@ function renderPost(post, target = document.querySelector("#latest-post")) {
 }
 function renderArchive() {
   const archive = document.querySelector("#archive");
-  archive.innerHTML = posts.slice(1).map((post) => {
+  const archivePosts = posts.slice(1);
+  const pageCount = Math.ceil(archivePosts.length / ARCHIVE_PAGE_SIZE);
+  archivePage = Math.min(archivePage, Math.max(pageCount, 1));
+  const firstPost = (archivePage - 1) * ARCHIVE_PAGE_SIZE;
+  archive.innerHTML = archivePosts.slice(firstPost, firstPost + ARCHIVE_PAGE_SIZE).map((post) => {
     const translation = post.translations[currentLanguage] || post.translations.en;
     const date = new Intl.DateTimeFormat(DATE_LOCALES[currentLanguage], { dateStyle: "medium", timeZone: DATE_TIME_ZONE }).format(new Date(post.published));
     const language = post.translations[currentLanguage] ? currentLanguage : "en";
     return `<article class="archive-item"><div><h3>${escapeHtml(translation?.title || post.id)}</h3><p>${date} · ${escapeHtml(post.category)}</p></div><a href="posts/${encodeURIComponent(post.id)}/${language}/">${COPY[currentLanguage].read}</a></article>`;
   }).join("") || `<p class="post-meta">${COPY[currentLanguage].empty_archive}</p>`;
+
+  const pagination = document.querySelector("#archive-pagination");
+  if (pageCount <= 1) {
+    pagination.hidden = true;
+    pagination.innerHTML = "";
+    return;
+  }
+  pagination.hidden = false;
+  const pageButtons = Array.from({ length: pageCount }, (_, index) => {
+    const page = index + 1;
+    return `<button type="button" class="page-number" data-page="${page}" aria-label="${COPY[currentLanguage].page_label} ${page}"${page === archivePage ? ' aria-current="page"' : ""}>${page}</button>`;
+  }).join("");
+  pagination.innerHTML = `<button type="button" class="page-step" data-page="${archivePage - 1}"${archivePage === 1 ? " disabled" : ""}>← ${COPY[currentLanguage].page_previous}</button>${pageButtons}<button type="button" class="page-step" data-page="${archivePage + 1}"${archivePage === pageCount ? " disabled" : ""}>${COPY[currentLanguage].page_next} →</button>`;
+  pagination.querySelectorAll("[data-page]").forEach((button) => button.addEventListener("click", () => {
+    archivePage = Number(button.dataset.page);
+    renderArchive();
+    document.querySelector("#archive-heading").scrollIntoView({ behavior: "smooth", block: "start" });
+  }));
 }
 function escapeHtml(value) {
   return String(value).replace(/[&<>"']/g, (character) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[character]);
