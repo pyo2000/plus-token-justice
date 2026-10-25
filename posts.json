@@ -107,6 +107,33 @@
       },
       "id": "appeal-20261023-2222",
       "published": "2026-10-23T22:22+00:00"
+    },
+    {
+      "category": "Restitution",
+      "translations": {
+        "en": {
+          "title": "Return eligible funds to their rightful owners",
+          "body": "The purpose of a victim restitution process should be to reach the people who suffered losses. We call for the relevant authorities to explain how eligible funds can be returned, what proof victims must provide, and how decisions can be reviewed.\n\nPlease put victims at the center of the process and publish a clear timetable for the next steps.\n\nWe ask Chinese authorities and the agencies responsible for the PlusToken case to respond publicly with verifiable information."
+        },
+        "ko": {
+          "title": "반환 대상 자금을 정당한 소유자에게 돌려주세요",
+          "body": "피해자 구제 절차는 손실을 입은 사람들에게 실제로 닿아야 합니다. 반환 대상 자금을 어떤 방식으로 돌려줄지, 피해자가 어떤 자료를 제출해야 하는지, 결정에 이의를 제기할 방법이 있는지 관련 당국이 설명해 주십시오.\n\n피해자를 절차의 중심에 두고 앞으로의 일정을 공개해 주세요.\n\n중국 당국과 플러스토큰 사건 담당 기관에 검증 가능한 정보를 공개적으로 제시해 달라고 요청합니다."
+        },
+        "de": {
+          "title": "Geben Sie berechtigte Gelder ihren rechtmäßigen Eigentümern zurück",
+          "body": "Ein Entschädigungsverfahren sollte die Menschen erreichen, die Verluste erlitten haben. Wir bitten die zuständigen Behörden zu erklären, wie berechtigte Gelder zurückgegeben werden können, welche Nachweise Betroffene vorlegen müssen und wie Entscheidungen überprüft werden können.\n\nStellen Sie die Betroffenen in den Mittelpunkt und veröffentlichen Sie einen klaren Zeitplan für die nächsten Schritte.\n\nWir bitten die chinesischen Behörden und die für den PlusToken-Fall zuständigen Stellen um eine öffentliche Antwort mit überprüfbaren Informationen."
+        },
+        "zh": {
+          "title": "请将符合返还条件的资金交还给合法权利人",
+          "body": "受害者救济程序应当真正帮助遭受损失的人。我们呼吁相关部门说明符合条件的资金如何返还、受害者需要提供哪些证明，以及如何申请复核。\n\n请以受害者为中心，并公布后续步骤的明确时间表。\n\n我们呼吁中国有关部门及 PlusToken 案负责机构公开回应，并提供可核实的信息。"
+        },
+        "ja": {
+          "title": "返還対象の資金を正当な権利者に返してください",
+          "body": "被害者救済手続きは、実際に損失を受けた人々に届くものであるべきです。中国当局および事件の担当機関に対し、返還対象となる資金の受け取り方法、必要な証拠、決定に対する再審査の方法を説明するよう求めます。\n\n被害者を手続きの中心に置き、今後の明確な日程を公表してください。"
+        }
+      },
+      "id": "appeal-20261024-2352",
+      "published": "2026-10-24T23:52+00:00"
     }
   ],
   "templates": [
