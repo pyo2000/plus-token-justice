@@ -7,7 +7,7 @@ const COPY = {
     nav_latest: "Latest appeal", nav_requests: "Our requests", nav_about: "About this campaign",
     hero_eyebrow: "PlusToken · China · Victim restitution", hero_title: "Seven years of waiting.", hero_title_em: "Victims deserve answers.",
     hero_intro: "We call on Chinese authorities to publish verifiable information about assets seized in connection with the PlusToken case and explain how victims can seek restitution.",
-    hero_variants: [{"title":"Seven years of waiting.","emphasis":"Victims deserve answers."},{"title":"Chinese authorities: return","emphasis":"victims’ money."},{"title":"Seven years is enough.","emphasis":"Return victims’ funds."}],
+    hero_variants: [{"title":"Seven years of waiting.","emphasis":"Victims deserve answers."},{"title":"Chinese authorities: return","emphasis":"victims’ money."}],
     hero_button: "Read the latest appeal", hero_button_secondary: "See our 3 requests", hero_note: "Independent advocacy project. Not affiliated with any government or recovery service.",
     latest_eyebrow: "From the community", latest_title: "Latest appeal", archive_eyebrow: "The record", archive_title: "Previous posts",
     address_eyebrow: "Who we are addressing", address_title: "Chinese authorities", address_body: "We ask the authorities handling the PlusToken case to provide public, verifiable answers about seized assets and victim restitution.",
@@ -26,7 +26,7 @@ const COPY = {
     nav_latest: "최신 호소문", nav_requests: "요구사항", nav_about: "캠페인 소개",
     hero_eyebrow: "플러스토큰 · 중국 · 피해자 구제", hero_title: "7년째 기다리고 있습니다.", hero_title_em: "피해자는 답변을 원합니다.",
     hero_intro: "중국 당국에 플러스토큰 사건 관련 압수 자산에 관한 검증 가능한 정보를 공개하고, 피해자가 구제를 신청할 수 있는 절차를 설명해 달라고 요청합니다.",
-    hero_variants: [{"title":"7년째 기다리고 있습니다.","emphasis":"피해자는 답변을 원합니다."},{"title":"중국 당국은 피해자에게","emphasis":"우리 돈을 돌려주세요."},{"title":"7년의 기다림은 충분합니다.","emphasis":"피해자의 돈을 돌려주세요."}],
+    hero_variants: [{"title":"7년째 기다리고 있습니다.","emphasis":"피해자는 답변을 원합니다."},{"title":"중국 당국은 피해자에게","emphasis":"우리 돈을 돌려주세요."}],
     hero_button: "최신 호소문 보기", hero_button_secondary: "요구사항 3가지 보기", hero_note: "독립적인 공익 캠페인입니다. 정부 기관이나 자산 회수 업체와 관련이 없습니다.",
     latest_eyebrow: "피해자 목소리", latest_title: "최신 호소문", archive_eyebrow: "기록", archive_title: "이전 게시물",
     address_eyebrow: "요청 대상", address_title: "중국 당국", address_body: "플러스토큰 사건 담당 당국에 압수 자산과 피해자 구제에 관한 공개적이고 검증 가능한 답변을 요청합니다.",
@@ -45,7 +45,7 @@ const COPY = {
     nav_latest: "Aktueller Aufruf", nav_requests: "Unsere Forderungen", nav_about: "Über diese Kampagne",
     hero_eyebrow: "PlusToken · China · Entschädigung für Betroffene", hero_title: "Sieben Jahre des Wartens.", hero_title_em: "Betroffene verdienen Antworten.",
     hero_intro: "Wir fordern die chinesischen Behörden auf, überprüfbare Informationen zu den im Zusammenhang mit dem PlusToken-Fall beschlagnahmten Vermögenswerten zu veröffentlichen und zu erklären, wie Betroffene Entschädigung beantragen können.",
-    hero_variants: [{"title":"Sieben Jahre des Wartens.","emphasis":"Betroffene verdienen Antworten."},{"title":"Chinesische Behörden: Geben Sie","emphasis":"den Betroffenen ihr Geld zurück."},{"title":"Sieben Jahre sind genug.","emphasis":"Gebt den Opfern ihr Geld zurück."}],
+    hero_variants: [{"title":"Sieben Jahre des Wartens.","emphasis":"Betroffene verdienen Antworten."},{"title":"Chinesische Behörden: Geben Sie","emphasis":"den Betroffenen ihr Geld zurück."}],
     hero_button: "Aktuellen Aufruf lesen", hero_button_secondary: "Unsere drei Forderungen", hero_note: "Unabhängige Initiative. Keine Verbindung zu einer Regierung oder einem Rückholservice.",
     latest_eyebrow: "Aus der Gemeinschaft", latest_title: "Aktueller Aufruf", archive_eyebrow: "Dokumentation", archive_title: "Frühere Beiträge",
     address_eyebrow: "An wen wir uns wenden", address_title: "Chinesische Behörden", address_body: "Wir bitten die für den PlusToken-Fall zuständigen Behörden um öffentliche, überprüfbare Antworten zu beschlagnahmten Vermögenswerten und zur Entschädigung der Betroffenen.",
@@ -64,7 +64,7 @@ const COPY = {
     nav_latest: "最新の訴え", nav_requests: "私たちの要望", nav_about: "このキャンペーンについて",
     hero_eyebrow: "PlusToken · 中国 · 被害者救済", hero_title: "被害者は7年間、待ち続けています。", hero_title_em: "明確な回答が必要です。",
     hero_intro: "PlusToken事件に関連して押収された資産について、検証可能な情報を公開し、被害者が救済を申請する方法を説明するよう中国当局に求めます。",
-    hero_variants: [{"title":"被害者は7年間、待ち続けています。","emphasis":"明確な回答が必要です。"},{"title":"中国当局に求めます","emphasis":"被害者にお金を返してください。"},{"title":"7年間の待機はもう十分です。","emphasis":"被害者に資金を返してください。"}],
+    hero_variants: [{"title":"被害者は7年間、待ち続けています。","emphasis":"明確な回答が必要です。"},{"title":"中国当局に求めます","emphasis":"被害者にお金を返してください。"}],
     hero_button: "最新の訴えを読む", hero_button_secondary: "3つの要望を見る", hero_note: "独立した市民活動です。政府機関や資産回収業者とは関係ありません。",
     latest_eyebrow: "コミュニティから", latest_title: "最新の訴え", archive_eyebrow: "記録", archive_title: "過去の投稿",
     address_eyebrow: "要望先", address_title: "中国当局", address_body: "PlusToken事件を担当する当局に対し、押収資産と被害者救済について、公開された検証可能な回答を求めます。",
@@ -83,7 +83,7 @@ const COPY = {
     nav_latest: "最新呼吁", nav_requests: "我们的诉求", nav_about: "关于本行动",
     hero_eyebrow: "PlusToken · 中国 · 受害者救济", hero_title: "受害者已等待七年。", hero_title_em: "他们应当得到答复。",
     hero_intro: "我们呼吁中国有关部门公开可核实的 PlusToken 案相关查扣资产信息，并说明受害者如何申请救济。",
-    hero_variants: [{"title":"受害者已等待七年。","emphasis":"他们应当得到答复。"},{"title":"请中国有关部门","emphasis":"把受害者的钱还回来。"},{"title":"七年的等待已经够久。","emphasis":"请把钱还给受害者。"}],
+    hero_variants: [{"title":"受害者已等待七年。","emphasis":"他们应当得到答复。"},{"title":"请中国有关部门","emphasis":"把受害者的钱还回来。"}],
     hero_button: "阅读最新呼吁", hero_button_secondary: "查看三项诉求", hero_note: "这是独立的公益倡议，与任何政府机构或资产追回服务无关。",
     latest_eyebrow: "受害者心声", latest_title: "最新呼吁", archive_eyebrow: "记录", archive_title: "以往文章",
     address_eyebrow: "诉求对象", address_title: "中国有关部门", address_body: "我们请负责 PlusToken 案的部门公开、可核实地说明查扣资产情况及受害者救济安排。",
@@ -102,7 +102,7 @@ const COPY = {
 
 let posts = [];
 let currentLanguage = "en";
-let heroMessageIndex = Math.floor(Math.random() * 3);
+let heroMessageIndex = Math.floor(Math.random() * 2);
 let archivePage = 1;
 const ARCHIVE_PAGE_SIZE = 10;
 function getSavedLanguage() {
