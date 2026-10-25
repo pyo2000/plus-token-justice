@@ -239,6 +239,84 @@
           "body": "被害者救済手続きは、実際に損失を受けた人々に届くものであるべきです。中国当局および事件の担当機関に対し、返還対象となる資金の受け取り方法、必要な証拠、決定に対する再審査の方法を説明するよう求めます。\n\n被害者を手続きの中心に置き、今後の明確な日程を公表してください。"
         }
       }
+    },
+    {
+      "template_id": "return-eligible-assets-now",
+      "category": "Restitution",
+      "translations": {
+        "en": {
+          "title": "Return eligible PlusToken assets to victims",
+          "body": "Seven years is too long to wait without a clear answer. We call on Chinese authorities and the agencies responsible for the PlusToken case to explain what assets were seized, how they are being handled, and which may legally be returned.\n\nPublish a clear claims process and return eligible funds to victims whose claims are verified. Provide a public timetable and a reliable way to check progress."
+        },
+        "ko": {
+          "title": "반환 대상 플러스토큰 자산을 피해자에게 돌려주세요",
+          "body": "피해자가 명확한 답변 없이 기다리기에는 7년은 너무 긴 시간입니다. 중국 당국과 플러스토큰 사건 담당 기관은 어떤 자산이 압수됐고 현재 어떻게 관리되는지, 어떤 자산을 법적으로 반환할 수 있는지 설명해 주십시오.\n\n명확한 신청 절차를 공개하고 피해 사실이 확인된 사람에게 반환 대상 자금을 돌려주세요. 공개 일정과 진행 상황을 확인할 방법도 마련해 주십시오."
+        },
+        "de": {
+          "title": "Geben Sie rückgabefähige PlusToken-Vermögenswerte den Betroffenen zurück",
+          "body": "Sieben Jahre sind zu lang, um ohne klare Antwort warten zu müssen. Wir fordern die chinesischen Behörden und die zuständigen Stellen auf, offenzulegen, welche Vermögenswerte beschlagnahmt wurden, wie sie verwaltet werden und welche davon rechtmäßig zurückgegeben werden können.\n\nVeröffentlichen Sie ein klares Antragsverfahren und geben Sie berechtigte Gelder nach Prüfung an Betroffene zurück. Nennen Sie einen Zeitplan und eine verlässliche Möglichkeit zur Statusabfrage."
+        },
+        "zh": {
+          "title": "请将符合返还条件的 PlusToken 资产交还受害者",
+          "body": "受害者不应在没有明确答复的情况下等待七年。我们呼吁中国有关部门及 PlusToken 案负责机构说明查扣了哪些资产、目前如何处理，以及哪些依法可以返还。\n\n请公布清晰的申请程序，并将符合条件的资金交还给经核实的受害者。请公布时间表和可靠的进度查询方式。"
+        },
+        "ja": {
+          "title": "返還対象となるPlusToken資産を被害者に返してください",
+          "body": "明確な回答がないまま被害者を7年間待たせるべきではありません。中国当局および担当機関に対し、どの資産が押収され、現在どう管理され、どの資産を法的に返還できるのか説明するよう求めます。\n\n明確な申請手続きを公表し、確認された被害者に返還対象の資金を返してください。公開日程と進捗確認の方法も示してください。"
+        }
+      }
+    },
+    {
+      "template_id": "victims-need-restitution-answers",
+      "category": "Restitution",
+      "translations": {
+        "en": {
+          "title": "Victims need restitution answers, not more waiting",
+          "body": "People affected by PlusToken deserve a direct answer: can victims apply for the return of eligible assets, and what steps must they take? We urge Chinese authorities and the agencies responsible for the case to answer publicly.\n\nIf funds can legally be returned, establish a fair process and return them to verified rightful owners. Do not leave victims facing indefinite uncertainty."
+        },
+        "ko": {
+          "title": "피해자에게 필요한 것은 더 기다리라는 말이 아니라 환급 답변입니다",
+          "body": "플러스토큰 피해자는 명확한 답변을 받을 권리가 있습니다. 반환 대상 자산을 신청할 수 있는지, 어떤 절차를 따라야 하는지 중국 당국과 사건 담당 기관은 공개적으로 답해 주십시오.\n\n법에 따라 자금을 반환할 수 있다면 공정한 절차를 마련하고 정당한 권리자가 확인된 피해자에게 돌려주세요. 피해자를 끝없는 불확실성 속에 두지 마십시오."
+        },
+        "de": {
+          "title": "Betroffene brauchen Antworten zur Rückgabe statt weiteren Wartens",
+          "body": "Betroffene verdienen eine klare Antwort: Können sie die Rückgabe anspruchsberechtigter Vermögenswerte beantragen und welche Schritte sind nötig? Wir fordern die chinesischen Behörden und die zuständigen Stellen auf, öffentlich zu antworten.\n\nWenn Gelder rechtmäßig zurückgegeben werden können, richten Sie ein faires Verfahren ein und geben Sie sie nach Prüfung an ihre Eigentümer zurück. Lassen Sie Betroffene nicht in endloser Ungewissheit."
+        },
+        "zh": {
+          "title": "受害者需要返还资金的答复，而不是继续等待",
+          "body": "PlusToken 案受影响者有权得到明确答复：能否申请返还符合条件的资产？需要办理哪些步骤？我们敦促中国有关部门及负责机构公开回答。\n\n如果法律允许返还资金，请建立公平程序，并在核实权利人后交还资金。请不要让受害者继续处于无期限的不确定之中。"
+        },
+        "ja": {
+          "title": "被害者が求めているのは、さらなる待機ではなく返還についての回答です",
+          "body": "被害者には明確な回答が必要です。返還対象の資産を申請できるのか、どの手続きが必要なのか、中国当局および担当機関は公に回答してください。\n\n法律上返還できる資金については公正な手続きを設け、権利者を確認したうえで返還してください。被害者を際限のない不確実な状態に置かないでください。"
+        }
+      }
+    },
+    {
+      "template_id": "publish-return-timetable",
+      "category": "Transparency",
+      "translations": {
+        "en": {
+          "title": "Publish a timetable for returning eligible funds",
+          "body": "Victims need more than general statements. We call on Chinese authorities and the agencies responsible for the PlusToken case to publish a dated timetable, identify the responsible offices, and explain how victims can submit and track claims.\n\nWhere funds are legally eligible for return, move the process forward and return them to verified victims without unnecessary delay."
+        },
+        "ko": {
+          "title": "반환 대상 자금의 구체적인 일정을 공개해 주세요",
+          "body": "피해자에게는 막연한 설명이 아니라 구체적인 안내가 필요합니다. 중국 당국과 플러스토큰 사건 담당 기관은 구제 절차의 다음 단계와 담당 부서, 신청 및 진행 상황 확인 방법을 날짜가 명시된 일정으로 공개해 주십시오.\n\n법적으로 반환 대상인 자금은 불필요하게 지연하지 말고 절차를 진행해 확인된 피해자에게 돌려주세요."
+        },
+        "de": {
+          "title": "Veröffentlichen Sie einen Zeitplan für die Rückgabe berechtigter Gelder",
+          "body": "Betroffene brauchen mehr als allgemeine Aussagen. Wir fordern die chinesischen Behörden und die zuständigen Stellen auf, einen datierten Zeitplan zu veröffentlichen, die verantwortlichen Behörden zu nennen und die Einreichung und Nachverfolgung von Anträgen zu erklären.\n\nRechtmäßig rückgabefähige Gelder sollten ohne unnötige Verzögerung geprüft und an verifizierte Betroffene zurückgegeben werden."
+        },
+        "zh": {
+          "title": "请公布符合返还条件资金的办理时间表",
+          "body": "受害者需要的不只是笼统表态。我们呼吁中国有关部门及 PlusToken 案负责机构公布明确的时间表，说明下一步安排、负责部门，以及提交和查询申请的方式。\n\n对于依法可以返还的资金，请推进办理，不要无故拖延，并将资金交还给经核实的受害者。"
+        },
+        "ja": {
+          "title": "返還対象資金の具体的な日程を公表してください",
+          "body": "被害者に必要なのは一般的な説明だけではありません。中国当局および担当機関に対し、次の段階、担当部署、申請と進捗確認の方法を日付入りの予定表として公表するよう求めます。\n\n法律上返還対象となる資金は、不必要に遅らせず手続きを進め、確認された被害者に返還してください。"
+        }
+      }
     }
   ]
 }
