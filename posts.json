@@ -161,6 +161,33 @@
       },
       "id": "appeal-20261025-1932",
       "published": "2026-10-25T19:32+00:00"
+    },
+    {
+      "category": "Restitution",
+      "translations": {
+        "en": {
+          "title": "Victims need restitution answers, not more waiting",
+          "body": "People affected by PlusToken deserve a direct answer: can victims apply for the return of eligible assets, and what steps must they take? We urge Chinese authorities and the agencies responsible for the case to answer publicly.\n\nIf funds can legally be returned, establish a fair process and return them to verified rightful owners. Do not leave victims facing indefinite uncertainty."
+        },
+        "ko": {
+          "title": "피해자에게 필요한 것은 더 기다리라는 말이 아니라 환급 답변입니다",
+          "body": "플러스토큰 피해자는 명확한 답변을 받을 권리가 있습니다. 반환 대상 자산을 신청할 수 있는지, 어떤 절차를 따라야 하는지 중국 당국과 사건 담당 기관은 공개적으로 답해 주십시오.\n\n법에 따라 자금을 반환할 수 있다면 공정한 절차를 마련하고 정당한 권리자가 확인된 피해자에게 돌려주세요. 피해자를 끝없는 불확실성 속에 두지 마십시오."
+        },
+        "de": {
+          "title": "Betroffene brauchen Antworten zur Rückgabe statt weiteren Wartens",
+          "body": "Betroffene verdienen eine klare Antwort: Können sie die Rückgabe anspruchsberechtigter Vermögenswerte beantragen und welche Schritte sind nötig? Wir fordern die chinesischen Behörden und die zuständigen Stellen auf, öffentlich zu antworten.\n\nWenn Gelder rechtmäßig zurückgegeben werden können, richten Sie ein faires Verfahren ein und geben Sie sie nach Prüfung an ihre Eigentümer zurück. Lassen Sie Betroffene nicht in endloser Ungewissheit."
+        },
+        "zh": {
+          "title": "受害者需要返还资金的答复，而不是继续等待",
+          "body": "PlusToken 案受影响者有权得到明确答复：能否申请返还符合条件的资产？需要办理哪些步骤？我们敦促中国有关部门及负责机构公开回答。\n\n如果法律允许返还资金，请建立公平程序，并在核实权利人后交还资金。请不要让受害者继续处于无期限的不确定之中。"
+        },
+        "ja": {
+          "title": "被害者が求めているのは、さらなる待機ではなく返還についての回答です",
+          "body": "被害者には明確な回答が必要です。返還対象の資産を申請できるのか、どの手続きが必要なのか、中国当局および担当機関は公に回答してください。\n\n法律上返還できる資金については公正な手続きを設け、権利者を確認したうえで返還してください。被害者を際限のない不確実な状態に置かないでください。"
+        }
+      },
+      "id": "appeal-20261026-1718",
+      "published": "2026-10-26T17:18+00:00"
     }
   ],
   "templates": [
