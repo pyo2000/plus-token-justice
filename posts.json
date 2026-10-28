@@ -242,6 +242,33 @@
       },
       "id": "appeal-20261028-0733",
       "published": "2026-10-28T07:33+00:00"
+    },
+    {
+      "category": "Fair process",
+      "translations": {
+        "en": {
+          "title": "Give every victim a fair chance to claim restitution",
+          "body": "A restitution process must be understandable and accessible to people in every affected country. We ask Chinese authorities to publish clear claim requirements, acceptable proof of loss, submission methods, and a way to appeal or correct a decision.\n\nDo not let geography or unclear instructions prevent verified victims from seeking funds they may be entitled to receive."
+        },
+        "ko": {
+          "title": "모든 피해자에게 공정한 환급 신청 기회를 주세요",
+          "body": "피해자 구제 절차는 어느 나라에 있는 피해자도 이해하고 이용할 수 있어야 합니다. 중국 당국은 신청 요건과 인정되는 피해 증빙, 제출 방법, 결정에 이의를 제기하거나 오류를 바로잡는 절차를 공개해 주십시오.\n\n거주 국가나 불명확한 안내 때문에 피해 사실이 확인된 사람이 반환을 신청하지 못하는 일이 없도록 해 주세요."
+        },
+        "de": {
+          "title": "Geben Sie allen Betroffenen eine faire Chance auf Entschädigung",
+          "body": "Ein Entschädigungsverfahren muss für Betroffene in allen betroffenen Ländern verständlich und zugänglich sein. Wir bitten die chinesischen Behörden, Antragsbedingungen, anerkannte Verlustnachweise, Einreichungswege und Möglichkeiten zur Überprüfung oder Korrektur einer Entscheidung zu veröffentlichen.\n\nWeder der Wohnort noch unklare Hinweise sollten verifizierte Betroffene daran hindern, mögliche Ansprüche geltend zu machen."
+        },
+        "zh": {
+          "title": "请让每位受害者都有公平的救济申请机会",
+          "body": "受害者救济程序应让所有受影响国家的人都能理解并使用。我们呼吁中国有关部门公布申请条件、可接受的损失证明、提交方式，以及对决定提出复核或更正的途径。\n\n请不要让所在地或含糊的说明阻碍经核实的受害者申请可能属于自己的资金。"
+        },
+        "ja": {
+          "title": "すべての被害者に公平な救済申請の機会を",
+          "body": "救済手続きは、どの国にいる被害者にも分かりやすく利用できるものであるべきです。中国当局に対し、申請条件、認められる損失証明、提出方法、決定の再審査や訂正の方法を公表するよう求めます。\n\n居住国や不明確な案内を理由に、確認された被害者が申請を断念することのないようにしてください。"
+        }
+      },
+      "id": "appeal-20261028-1950",
+      "published": "2026-10-28T19:50+00:00"
     }
   ],
   "templates": [
