@@ -11,6 +11,7 @@ POSTS_FILE = ROOT / "posts.json"
 STATE_FILE = ROOT / "schedule.json"
 UTC = timezone.utc
 CADENCE = "random-8-24-hours-v1"
+RECENT_TEMPLATE_LIMIT = 10
 
 
 def load_json(path: Path, default: dict) -> dict:
@@ -55,8 +56,20 @@ def main() -> None:
     due = next_base <= now
     if due:
         slot = next_base.isoformat(timespec="minutes")
-        recent_ids = state.setdefault("recent_template_ids", [])
-        available = [template for template in templates if template["template_id"] not in recent_ids[-3:]]
+        recent_ids = []
+        for previous_post in posts.get("posts", [])[-RECENT_TEMPLATE_LIMIT:]:
+            previous_template = next((
+                candidate for candidate in templates
+                if candidate["category"] == previous_post.get("category")
+                and candidate["translations"] == previous_post.get("translations")
+            ), None)
+            if previous_template and previous_template["template_id"] not in recent_ids:
+                recent_ids.append(previous_template["template_id"])
+        for template_id in state.get("recent_template_ids", []):
+            if template_id not in recent_ids:
+                recent_ids.append(template_id)
+        recent_ids = recent_ids[-RECENT_TEMPLATE_LIMIT:]
+        available = [template for template in templates if template["template_id"] not in recent_ids]
         if not available:
             available = templates
         template = random.choice(available)
@@ -66,7 +79,7 @@ def main() -> None:
         publication["published"] = now.isoformat(timespec="minutes")
         posts["posts"].append(publication)
         recent_ids.append(template["template_id"])
-        state["recent_template_ids"] = recent_ids[-3:]
+        state["recent_template_ids"] = recent_ids[-RECENT_TEMPLATE_LIMIT:]
         state["published_slots"].append(slot)
         # Count the next interval from publication time so workflow delays cannot shorten it.
         state["next_base"] = (now + random_interval()).isoformat(timespec="minutes")
