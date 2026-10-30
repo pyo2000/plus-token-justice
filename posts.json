@@ -296,6 +296,33 @@
       },
       "id": "appeal-20261029-0950",
       "published": "2026-10-29T09:50+00:00"
+    },
+    {
+      "category": "Fair process",
+      "translations": {
+        "en": {
+          "title": "Return victims’ money fairly, without favoritism",
+          "body": "Any process for returning PlusToken-related assets must treat affected people consistently and transparently. We ask Chinese authorities to publish the same eligibility rules for everyone, explain how claims will be reviewed, and provide reasons when a claim is denied.\n\nReturn funds to verified rightful owners through an impartial process that victims can understand and follow."
+        },
+        "ko": {
+          "title": "특혜 없이 공정한 절차로 피해자의 돈을 돌려주세요",
+          "body": "플러스토큰 관련 자산을 반환하는 절차는 모든 피해자를 일관되고 투명하게 대해야 합니다. 중국 당국은 누구에게나 동일하게 적용되는 자격 기준을 공개하고 신청 심사 방법과 불승인 사유 안내 절차를 설명해 주십시오.\n\n피해자가 이해하고 따를 수 있는 공정한 절차를 통해 정당한 소유자가 확인된 사람에게 자금을 돌려주세요."
+        },
+        "de": {
+          "title": "Geben Sie Betroffenen ihr Geld fair und ohne Bevorzugung zurück",
+          "body": "Jedes Verfahren zur Rückgabe von PlusToken-bezogenen Vermögenswerten muss Betroffene einheitlich und transparent behandeln. Wir bitten die chinesischen Behörden, gleiche Anspruchskriterien für alle zu veröffentlichen, die Prüfung von Anträgen zu erklären und Ablehnungen zu begründen.\n\nGeben Sie Gelder über ein unparteiisches, verständliches Verfahren an verifizierte rechtmäßige Eigentümer zurück."
+        },
+        "zh": {
+          "title": "请公平返还受害者资金，不偏袒任何人",
+          "body": "任何 PlusToken 相关资产返还程序都应以一致、透明的方式对待受影响者。我们呼吁中国有关部门公布统一的申请资格标准，说明如何审核申请，并在申请被拒时给出理由。\n\n请通过公正、清晰、受害者能够理解和遵循的程序，将资金返还给经核实的合法权利人。"
+        },
+        "ja": {
+          "title": "偏りのない公正な手続きで被害者の資金を返してください",
+          "body": "PlusToken関連資産の返還手続きでは、すべての被害者を一貫性と透明性をもって扱う必要があります。中国当局に対し、共通の申請資格を公表し、審査方法を説明し、不承認の場合は理由を示すよう求めます。\n\n被害者が理解して利用できる公平で中立な手続きを通じ、権利が確認された人に資金を返還してください。"
+        }
+      },
+      "id": "appeal-20261030-0720",
+      "published": "2026-10-30T07:20+00:00"
     }
   ],
   "templates": [
