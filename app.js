@@ -156,7 +156,8 @@ function renderArchive() {
     const translation = post.translations[currentLanguage] || post.translations.en;
     const date = new Intl.DateTimeFormat(DATE_LOCALES[currentLanguage], { dateStyle: "medium", timeZone: DATE_TIME_ZONE }).format(new Date(post.published));
     const language = post.translations[currentLanguage] ? currentLanguage : "en";
-    return `<article class="archive-item"><div><h3>${escapeHtml(translation?.title || post.id)}</h3><p>${date} · ${escapeHtml(post.category)}</p></div><a href="posts/${encodeURIComponent(post.id)}/${language}/">${COPY[currentLanguage].read}</a></article>`;
+    const postUrl = `posts/${encodeURIComponent(post.id)}/${language}/`;
+    return `<article class="archive-item"><div><h3><a class="archive-title-link" href="${postUrl}">${escapeHtml(translation?.title || post.id)}</a></h3><p>${date} · ${escapeHtml(post.category)}</p></div><a href="${postUrl}">${COPY[currentLanguage].read}</a></article>`;
   }).join("") || `<p class="post-meta">${COPY[currentLanguage].empty_archive}</p>`;
 
   const pagination = document.querySelector("#archive-pagination");
