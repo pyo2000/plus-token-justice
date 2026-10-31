@@ -1,6 +1,6 @@
 {
   "cadence": "random-8-24-hours-v1",
-  "next_base": "2026-10-31T03:08+00:00",
+  "next_base": "2026-11-01T04:50+00:00",
   "published_slots": [
     "2026-10-23T19:50+00:00",
     "2026-10-24T22:12+00:00",
@@ -10,7 +10,8 @@
     "2026-10-28T03:06+00:00",
     "2026-10-28T18:01+00:00",
     "2026-10-29T06:48+00:00",
-    "2026-10-30T04:28+00:00"
+    "2026-10-30T04:28+00:00",
+    "2026-10-31T03:08+00:00"
   ],
   "recent_template_ids": [
     "return-our-money",
@@ -20,6 +21,7 @@
     "victims-need-restitution-answers",
     "guarantee-fair-restitution-access",
     "disclose-victim-return-plan",
-    "return-money-without-favoritism"
+    "return-money-without-favoritism",
+    "publish-return-timetable"
   ]
 }

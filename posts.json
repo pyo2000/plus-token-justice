@@ -323,6 +323,33 @@
       },
       "id": "appeal-20261030-0720",
       "published": "2026-10-30T07:20+00:00"
+    },
+    {
+      "category": "Transparency",
+      "translations": {
+        "en": {
+          "title": "Publish a timetable for returning eligible funds",
+          "body": "Victims need more than general statements. We call on Chinese authorities and the agencies responsible for the PlusToken case to publish a dated timetable, identify the responsible offices, and explain how victims can submit and track claims.\n\nWhere funds are legally eligible for return, move the process forward and return them to verified victims without unnecessary delay."
+        },
+        "ko": {
+          "title": "반환 대상 자금의 구체적인 일정을 공개해 주세요",
+          "body": "피해자에게는 막연한 설명이 아니라 구체적인 안내가 필요합니다. 중국 당국과 플러스토큰 사건 담당 기관은 구제 절차의 다음 단계와 담당 부서, 신청 및 진행 상황 확인 방법을 날짜가 명시된 일정으로 공개해 주십시오.\n\n법적으로 반환 대상인 자금은 불필요하게 지연하지 말고 절차를 진행해 확인된 피해자에게 돌려주세요."
+        },
+        "de": {
+          "title": "Veröffentlichen Sie einen Zeitplan für die Rückgabe berechtigter Gelder",
+          "body": "Betroffene brauchen mehr als allgemeine Aussagen. Wir fordern die chinesischen Behörden und die zuständigen Stellen auf, einen datierten Zeitplan zu veröffentlichen, die verantwortlichen Behörden zu nennen und die Einreichung und Nachverfolgung von Anträgen zu erklären.\n\nRechtmäßig rückgabefähige Gelder sollten ohne unnötige Verzögerung geprüft und an verifizierte Betroffene zurückgegeben werden."
+        },
+        "zh": {
+          "title": "请公布符合返还条件资金的办理时间表",
+          "body": "受害者需要的不只是笼统表态。我们呼吁中国有关部门及 PlusToken 案负责机构公布明确的时间表，说明下一步安排、负责部门，以及提交和查询申请的方式。\n\n对于依法可以返还的资金，请推进办理，不要无故拖延，并将资金交还给经核实的受害者。"
+        },
+        "ja": {
+          "title": "返還対象資金の具体的な日程を公表してください",
+          "body": "被害者に必要なのは一般的な説明だけではありません。中国当局および担当機関に対し、次の段階、担当部署、申請と進捗確認の方法を日付入りの予定表として公表するよう求めます。\n\n法律上返還対象となる資金は、不必要に遅らせず手続きを進め、確認された被害者に返還してください。"
+        }
+      },
+      "id": "appeal-20261031-0849",
+      "published": "2026-10-31T08:49+00:00"
     }
   ],
   "templates": [
