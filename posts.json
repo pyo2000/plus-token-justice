@@ -242,6 +242,114 @@
       },
       "id": "appeal-20261028-0733",
       "published": "2026-10-28T07:33+00:00"
+    },
+    {
+      "category": "Fair process",
+      "translations": {
+        "en": {
+          "title": "Give every victim a fair chance to claim restitution",
+          "body": "A restitution process must be understandable and accessible to people in every affected country. We ask Chinese authorities to publish clear claim requirements, acceptable proof of loss, submission methods, and a way to appeal or correct a decision.\n\nDo not let geography or unclear instructions prevent verified victims from seeking funds they may be entitled to receive."
+        },
+        "ko": {
+          "title": "모든 피해자에게 공정한 환급 신청 기회를 주세요",
+          "body": "피해자 구제 절차는 어느 나라에 있는 피해자도 이해하고 이용할 수 있어야 합니다. 중국 당국은 신청 요건과 인정되는 피해 증빙, 제출 방법, 결정에 이의를 제기하거나 오류를 바로잡는 절차를 공개해 주십시오.\n\n거주 국가나 불명확한 안내 때문에 피해 사실이 확인된 사람이 반환을 신청하지 못하는 일이 없도록 해 주세요."
+        },
+        "de": {
+          "title": "Geben Sie allen Betroffenen eine faire Chance auf Entschädigung",
+          "body": "Ein Entschädigungsverfahren muss für Betroffene in allen betroffenen Ländern verständlich und zugänglich sein. Wir bitten die chinesischen Behörden, Antragsbedingungen, anerkannte Verlustnachweise, Einreichungswege und Möglichkeiten zur Überprüfung oder Korrektur einer Entscheidung zu veröffentlichen.\n\nWeder der Wohnort noch unklare Hinweise sollten verifizierte Betroffene daran hindern, mögliche Ansprüche geltend zu machen."
+        },
+        "zh": {
+          "title": "请让每位受害者都有公平的救济申请机会",
+          "body": "受害者救济程序应让所有受影响国家的人都能理解并使用。我们呼吁中国有关部门公布申请条件、可接受的损失证明、提交方式，以及对决定提出复核或更正的途径。\n\n请不要让所在地或含糊的说明阻碍经核实的受害者申请可能属于自己的资金。"
+        },
+        "ja": {
+          "title": "すべての被害者に公平な救済申請の機会を",
+          "body": "救済手続きは、どの国にいる被害者にも分かりやすく利用できるものであるべきです。中国当局に対し、申請条件、認められる損失証明、提出方法、決定の再審査や訂正の方法を公表するよう求めます。\n\n居住国や不明確な案内を理由に、確認された被害者が申請を断念することのないようにしてください。"
+        }
+      },
+      "id": "appeal-20261028-1950",
+      "published": "2026-10-28T19:50+00:00"
+    },
+    {
+      "category": "Restitution",
+      "translations": {
+        "en": {
+          "title": "Show victims how their funds can be returned",
+          "body": "People affected by PlusToken need a clear explanation of whether and how eligible funds can be returned. We urge Chinese authorities and the agencies responsible for the case to publish the legal basis, eligibility rules, and steps victims must follow.\n\nPlease give verified victims a fair opportunity to reclaim funds that are legally theirs."
+        },
+        "ko": {
+          "title": "피해 자금을 어떻게 돌려줄지 계획을 밝혀 주세요",
+          "body": "플러스토큰 피해자는 반환 대상 자금을 어떤 절차로 돌려받을 수 있는지 명확한 설명이 필요합니다. 중국 당국과 사건 담당 기관은 법적 근거와 신청 자격, 피해자가 따라야 할 절차를 공개해 주십시오.\n\n법적으로 피해자에게 반환할 자금이 있다면, 피해 사실이 확인된 사람에게 공정한 신청 기회를 보장해 주세요."
+        },
+        "de": {
+          "title": "Zeigen Sie Betroffenen, wie ihre Gelder zurückgegeben werden können",
+          "body": "Vom PlusToken-Fall Betroffene brauchen eine klare Erklärung, ob und wie anspruchsberechtigte Gelder zurückgegeben werden können. Wir fordern die chinesischen Behörden und die zuständigen Stellen auf, Rechtsgrundlage, Anspruchskriterien und erforderliche Schritte zu veröffentlichen.\n\nGeben Sie verifizierten Betroffenen eine faire Möglichkeit, ihnen rechtmäßig zustehende Gelder zurückzuerhalten."
+        },
+        "zh": {
+          "title": "请说明如何向受害者返还资金",
+          "body": "PlusToken 案受影响者需要了解符合条件的资金是否以及如何返还。我们敦促中国有关部门及负责机构公布法律依据、申请资格和受害者需要办理的步骤。\n\n如果有依法应返还给受害者的资金，请为经核实的受害者提供公平的申请机会。"
+        },
+        "ja": {
+          "title": "被害者の資金を返還する方法を示してください",
+          "body": "PlusToken事件の被害者には、返還対象となる資金をどのような手続きで受け取れるのか、明確な説明が必要です。中国当局および担当機関に対し、法的根拠、申請資格、必要な手順を公表するよう求めます。\n\n法律上被害者に返還されるべき資金がある場合、確認された被害者に公平な申請機会を設けてください。"
+        }
+      },
+      "id": "appeal-20261029-0950",
+      "published": "2026-10-29T09:50+00:00"
+    },
+    {
+      "category": "Fair process",
+      "translations": {
+        "en": {
+          "title": "Return victims’ money fairly, without favoritism",
+          "body": "Any process for returning PlusToken-related assets must treat affected people consistently and transparently. We ask Chinese authorities to publish the same eligibility rules for everyone, explain how claims will be reviewed, and provide reasons when a claim is denied.\n\nReturn funds to verified rightful owners through an impartial process that victims can understand and follow."
+        },
+        "ko": {
+          "title": "특혜 없이 공정한 절차로 피해자의 돈을 돌려주세요",
+          "body": "플러스토큰 관련 자산을 반환하는 절차는 모든 피해자를 일관되고 투명하게 대해야 합니다. 중국 당국은 누구에게나 동일하게 적용되는 자격 기준을 공개하고 신청 심사 방법과 불승인 사유 안내 절차를 설명해 주십시오.\n\n피해자가 이해하고 따를 수 있는 공정한 절차를 통해 정당한 소유자가 확인된 사람에게 자금을 돌려주세요."
+        },
+        "de": {
+          "title": "Geben Sie Betroffenen ihr Geld fair und ohne Bevorzugung zurück",
+          "body": "Jedes Verfahren zur Rückgabe von PlusToken-bezogenen Vermögenswerten muss Betroffene einheitlich und transparent behandeln. Wir bitten die chinesischen Behörden, gleiche Anspruchskriterien für alle zu veröffentlichen, die Prüfung von Anträgen zu erklären und Ablehnungen zu begründen.\n\nGeben Sie Gelder über ein unparteiisches, verständliches Verfahren an verifizierte rechtmäßige Eigentümer zurück."
+        },
+        "zh": {
+          "title": "请公平返还受害者资金，不偏袒任何人",
+          "body": "任何 PlusToken 相关资产返还程序都应以一致、透明的方式对待受影响者。我们呼吁中国有关部门公布统一的申请资格标准，说明如何审核申请，并在申请被拒时给出理由。\n\n请通过公正、清晰、受害者能够理解和遵循的程序，将资金返还给经核实的合法权利人。"
+        },
+        "ja": {
+          "title": "偏りのない公正な手続きで被害者の資金を返してください",
+          "body": "PlusToken関連資産の返還手続きでは、すべての被害者を一貫性と透明性をもって扱う必要があります。中国当局に対し、共通の申請資格を公表し、審査方法を説明し、不承認の場合は理由を示すよう求めます。\n\n被害者が理解して利用できる公平で中立な手続きを通じ、権利が確認された人に資金を返還してください。"
+        }
+      },
+      "id": "appeal-20261030-0720",
+      "published": "2026-10-30T07:20+00:00"
+    },
+    {
+      "category": "Transparency",
+      "translations": {
+        "en": {
+          "title": "Publish a timetable for returning eligible funds",
+          "body": "Victims need more than general statements. We call on Chinese authorities and the agencies responsible for the PlusToken case to publish a dated timetable, identify the responsible offices, and explain how victims can submit and track claims.\n\nWhere funds are legally eligible for return, move the process forward and return them to verified victims without unnecessary delay."
+        },
+        "ko": {
+          "title": "반환 대상 자금의 구체적인 일정을 공개해 주세요",
+          "body": "피해자에게는 막연한 설명이 아니라 구체적인 안내가 필요합니다. 중국 당국과 플러스토큰 사건 담당 기관은 구제 절차의 다음 단계와 담당 부서, 신청 및 진행 상황 확인 방법을 날짜가 명시된 일정으로 공개해 주십시오.\n\n법적으로 반환 대상인 자금은 불필요하게 지연하지 말고 절차를 진행해 확인된 피해자에게 돌려주세요."
+        },
+        "de": {
+          "title": "Veröffentlichen Sie einen Zeitplan für die Rückgabe berechtigter Gelder",
+          "body": "Betroffene brauchen mehr als allgemeine Aussagen. Wir fordern die chinesischen Behörden und die zuständigen Stellen auf, einen datierten Zeitplan zu veröffentlichen, die verantwortlichen Behörden zu nennen und die Einreichung und Nachverfolgung von Anträgen zu erklären.\n\nRechtmäßig rückgabefähige Gelder sollten ohne unnötige Verzögerung geprüft und an verifizierte Betroffene zurückgegeben werden."
+        },
+        "zh": {
+          "title": "请公布符合返还条件资金的办理时间表",
+          "body": "受害者需要的不只是笼统表态。我们呼吁中国有关部门及 PlusToken 案负责机构公布明确的时间表，说明下一步安排、负责部门，以及提交和查询申请的方式。\n\n对于依法可以返还的资金，请推进办理，不要无故拖延，并将资金交还给经核实的受害者。"
+        },
+        "ja": {
+          "title": "返還対象資金の具体的な日程を公表してください",
+          "body": "被害者に必要なのは一般的な説明だけではありません。中国当局および担当機関に対し、次の段階、担当部署、申請と進捗確認の方法を日付入りの予定表として公表するよう求めます。\n\n法律上返還対象となる資金は、不必要に遅らせず手続きを進め、確認された被害者に返還してください。"
+        }
+      },
+      "id": "appeal-20261031-0849",
+      "published": "2026-10-31T08:49+00:00"
     }
   ],
   "templates": [
