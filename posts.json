@@ -377,6 +377,33 @@
       },
       "id": "appeal-20261101-0455",
       "published": "2026-11-01T04:55+00:00"
+    },
+    {
+      "category": "Transparency",
+      "translations": {
+        "en": {
+          "title": "Make the restitution process visible to every victim",
+          "body": "No victim should have to rely on rumors to learn whether funds may be returned. We call on Chinese authorities to create one official, accessible source explaining eligibility, required documents, application dates, and the status of each step.\n\nPublish regular updates and make sure victims can find out how to receive funds legally owed to them."
+        },
+        "ko": {
+          "title": "모든 피해자가 환급 절차를 확인할 수 있게 해 주세요",
+          "body": "자금 반환 가능성을 알기 위해 피해자가 소문에 의존해서는 안 됩니다. 중국 당국은 신청 자격과 필요 서류, 접수 일정, 절차별 진행 상황을 안내하는 공식적이고 접근하기 쉬운 정보 창구를 마련해 주십시오.\n\n정기적으로 진행 상황을 공개하고, 피해자가 법적으로 받을 자금을 어떻게 돌려받을 수 있는지 확인할 수 있게 해 주세요."
+        },
+        "de": {
+          "title": "Machen Sie das Entschädigungsverfahren für alle Betroffenen sichtbar",
+          "body": "Kein Betroffener sollte auf Gerüchte angewiesen sein, um zu erfahren, ob Gelder zurückgegeben werden können. Wir fordern die chinesischen Behörden auf, eine offizielle und zugängliche Informationsquelle zu Anspruchskriterien, erforderlichen Unterlagen, Antragsfristen und Verfahrensstand einzurichten.\n\nVeröffentlichen Sie regelmäßige Informationen und erklären Sie, wie Betroffene ihnen rechtmäßig zustehende Gelder erhalten können."
+        },
+        "zh": {
+          "title": "让每位受害者都能查到救济程序",
+          "body": "受害者不应依靠传言来了解资金是否可以返还。我们呼吁中国有关部门建立一个官方、便于访问的信息渠道，说明申请资格、所需材料、申请日期和各阶段进展。\n\n请定期发布更新，并说明受害者如何领取依法应得的资金。"
+        },
+        "ja": {
+          "title": "すべての被害者が救済手続きを確認できるようにしてください",
+          "body": "資金が返還されるかを知るために、被害者が噂に頼らなければならない状況は避けるべきです。中国当局に対し、申請資格、必要書類、受付日程、各段階の進捗を説明する公式で利用しやすい情報窓口を設けるよう求めます。\n\n定期的に情報を更新し、被害者が法律上受け取る権利のある資金をどう受け取れるか示してください。"
+        }
+      },
+      "id": "appeal-20261101-1503",
+      "published": "2026-11-01T15:03+00:00"
     }
   ],
   "templates": [
