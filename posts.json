@@ -458,6 +458,33 @@
       },
       "id": "appeal-20261103-0959",
       "published": "2026-11-03T09:59+00:00"
+    },
+    {
+      "category": "Fair process",
+      "translations": {
+        "en": {
+          "title": "Create a fair and accessible claims process",
+          "body": "Every victim should be able to find out whether they qualify for restitution and what evidence is required. We ask for a public process with clear criteria, accessible instructions, a secure way to submit claims, and updates on claim status.\n\nPlease make the process fair, transparent, and reachable for victims in every affected country.\n\nWe ask Chinese authorities and the agencies responsible for the PlusToken case to respond publicly with verifiable information."
+        },
+        "ko": {
+          "title": "공정하고 누구나 이용할 수 있는 신청 절차를 마련해 주세요",
+          "body": "모든 피해자는 구제 대상인지, 어떤 증빙이 필요한지 확인할 수 있어야 합니다. 명확한 기준과 쉬운 안내, 안전한 신청 방법, 진행 상황을 확인할 수 있는 공개 절차를 마련해 주십시오.\n\n피해자가 어느 나라에 있든 공정하고 투명하게 이용할 수 있는 절차가 필요합니다.\n\n중국 당국과 플러스토큰 사건 담당 기관에 검증 가능한 정보를 공개적으로 제시해 달라고 요청합니다."
+        },
+        "de": {
+          "title": "Schaffen Sie ein faires und zugängliches Antragsverfahren",
+          "body": "Alle Betroffenen sollten erfahren können, ob sie Anspruch auf Entschädigung haben und welche Nachweise erforderlich sind. Wir bitten um ein öffentliches Verfahren mit klaren Kriterien, verständlichen Anleitungen, einer sicheren Möglichkeit zur Antragstellung und Statusinformationen.\n\nDas Verfahren muss fair, transparent und für Betroffene in allen betroffenen Ländern erreichbar sein.\n\nWir bitten die chinesischen Behörden und die für den PlusToken-Fall zuständigen Stellen um eine öffentliche Antwort mit überprüfbaren Informationen."
+        },
+        "zh": {
+          "title": "建立公平、便于受害者使用的申请程序",
+          "body": "每一位受害者都应能查明自己是否符合救济资格，以及需要哪些证明材料。我们呼吁公布明确标准、易懂指南、安全的申请渠道和申请进度查询方式。\n\n无论受害者身处哪个国家，都应能公平、透明地使用这一程序。\n\n我们呼吁中国有关部门及 PlusToken 案负责机构公开回应，并提供可核实的信息。"
+        },
+        "ja": {
+          "title": "公正で利用しやすい申請手続きを設けてください",
+          "body": "すべての被害者が、自分に救済を受ける資格があるか、どのような証拠が必要かを確認できるべきです。中国当局および事件の担当機関に対し、明確な基準、分かりやすい案内、安全な申請方法、申請状況の確認手段を備えた公開手続きを求めます。\n\n被害者がどの国にいても、公正で透明性があり、利用できる手続きにしてください。"
+        }
+      },
+      "id": "appeal-20261104-1757",
+      "published": "2026-11-04T17:57+00:00"
     }
   ],
   "templates": [
