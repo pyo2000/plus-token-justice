@@ -63,7 +63,7 @@ def article_page(post: dict, language: str, translation: dict) -> str:
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-SDWRXTG8RP"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag(){{dataLayer.push(arguments);}}
     gtag('js', new Date());
     gtag('config', 'G-SDWRXTG8RP');
   </script>
