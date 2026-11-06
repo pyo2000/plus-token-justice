@@ -60,6 +60,13 @@ def article_page(post: dict, language: str, translation: dict) -> str:
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SDWRXTG8RP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-SDWRXTG8RP');
+  </script>
   <title>{title} | Justice for PlusToken Victims</title>
   <meta name="description" content="{description}">
   <meta name="robots" content="index,follow">
