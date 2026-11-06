@@ -9,7 +9,7 @@ from urllib.parse import quote
 from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent
-SITE = "https://pyo2000.github.io/plus-token-justice"
+SITE = "https://plustoken.org"
 LANGUAGE_NAMES = {"en": "English", "ko": "한국어", "de": "Deutsch", "zh": "中文", "ja": "日本語"}
 SEO_TIME_ZONE = ZoneInfo("Asia/Seoul")
 
