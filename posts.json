@@ -539,6 +539,33 @@
       },
       "id": "appeal-20261106-0009",
       "published": "2026-11-06T00:09+00:00"
+    },
+    {
+      "category": "Restitution",
+      "translations": {
+        "en": {
+          "title": "Do not leave victims waiting for their money",
+          "body": "Years of uncertainty have placed a heavy burden on people affected by PlusToken. We call on Chinese authorities to state clearly what remains to be done before eligible funds can be returned and to complete each step without unnecessary delay.\n\nVictims deserve a public explanation and a practical route to seek the return of funds they can prove are theirs."
+        },
+        "ko": {
+          "title": "피해자 자금을 계속 기다리게 하지 마세요",
+          "body": "플러스토큰 피해자는 오랜 불확실성 속에서 큰 부담을 겪어 왔습니다. 중국 당국은 반환 대상 자금을 돌려주기 위해 남은 절차가 무엇인지 명확히 밝히고 불필요한 지연 없이 진행해 주십시오.\n\n피해자에게 공개적인 설명을 제공하고, 본인 소유임을 입증할 수 있는 자금의 반환을 신청할 현실적인 방법을 마련해 주세요."
+        },
+        "de": {
+          "title": "Lassen Sie Betroffene nicht länger auf ihr Geld warten",
+          "body": "Die jahrelange Ungewissheit belastet die vom PlusToken-Fall Betroffenen schwer. Wir fordern die chinesischen Behörden auf, klar zu benennen, welche Schritte vor einer Rückgabe anspruchsberechtigter Gelder noch erforderlich sind, und diese ohne unnötige Verzögerung abzuschließen.\n\nBetroffene verdienen eine öffentliche Erklärung und einen praktikablen Weg, die Rückgabe nachweislich eigener Gelder zu beantragen."
+        },
+        "zh": {
+          "title": "请不要让受害者继续等待自己的资金",
+          "body": "多年来的不确定性给 PlusToken 案受影响者带来了沉重负担。我们呼吁中国有关部门明确说明返还符合条件的资金还需哪些步骤，并避免不必要的拖延。\n\n受害者应得到公开说明，也应有切实可行的途径申请返还能够证明属于自己的资金。"
+        },
+        "ja": {
+          "title": "被害者をこれ以上、資金の返還待ちにしないでください",
+          "body": "長年続く不確実な状況は、PlusToken事件の被害者に大きな負担を与えています。中国当局に対し、返還対象資金を返すまでに必要な残りの手続きを明確にし、不必要な遅延なく進めるよう求めます。\n\n被害者には公的な説明と、自分の資金だと証明できる資産の返還を申請する現実的な方法が必要です。"
+        }
+      },
+      "id": "appeal-20261106-1457",
+      "published": "2026-11-06T14:57+00:00"
     }
   ],
   "templates": [

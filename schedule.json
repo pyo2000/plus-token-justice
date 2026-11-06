@@ -1,6 +1,6 @@
 {
   "cadence": "random-8-24-hours-v1",
-  "next_base": "2026-11-06T11:14+00:00",
+  "next_base": "2026-11-07T11:25+00:00",
   "published_slots": [
     "2026-10-23T19:50+00:00",
     "2026-10-24T22:12+00:00",
@@ -18,10 +18,10 @@
     "2026-11-03T04:42+00:00",
     "2026-11-04T07:30+00:00",
     "2026-11-05T08:17+00:00",
-    "2026-11-05T23:18+00:00"
+    "2026-11-05T23:18+00:00",
+    "2026-11-06T11:14+00:00"
   ],
   "recent_template_ids": [
-    "return-money-without-favoritism",
     "publish-return-timetable",
     "return-verified-losses",
     "make-restitution-process-visible",
@@ -29,7 +29,8 @@
     "return-eligible-assets-now",
     "fair-claim-process",
     "end-the-delay",
+    "guarantee-fair-restitution-access",
     "publish-asset-account",
-    "guarantee-fair-restitution-access"
+    "stop-holding-victim-funds"
   ]
 }
