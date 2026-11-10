@@ -647,6 +647,33 @@
       },
       "id": "appeal-20261109-2039",
       "published": "2026-11-09T20:39+00:00"
+    },
+    {
+      "category": "Transparency",
+      "translations": {
+        "en": {
+          "title": "Tell the public what happened to the seized assets",
+          "body": "Victims and the public need a verifiable account of assets seized in connection with the PlusToken case. We ask the Chinese authorities and responsible agencies to disclose what was seized, which office manages it, and what legal decisions govern its use or return.\n\nClear accounting is essential to determine whether funds can be returned to victims and how to apply."
+        },
+        "ko": {
+          "title": "압수 자산이 어떻게 처리됐는지 공개해 주세요",
+          "body": "피해자와 시민은 플러스토큰 사건과 관련해 압수된 자산이 어떻게 처리됐는지 검증 가능한 자료를 필요로 합니다. 중국 당국과 담당 기관은 무엇이 압수됐는지, 어느 기관이 관리하는지, 사용이나 반환에 어떤 법적 결정이 적용되는지 공개해 주십시오.\n\n자금 반환 가능성과 신청 방법을 확인하려면 투명한 자산 내역 공개가 필요합니다."
+        },
+        "de": {
+          "title": "Legen Sie offen, was mit den beschlagnahmten Vermögenswerten geschah",
+          "body": "Betroffene und Öffentlichkeit brauchen eine überprüfbare Darstellung der im Zusammenhang mit dem PlusToken-Fall beschlagnahmten Vermögenswerte. Wir bitten die chinesischen Behörden und zuständigen Stellen offenzulegen, was beschlagnahmt wurde, welche Behörde es verwaltet und welche rechtlichen Entscheidungen für Verwendung oder Rückgabe gelten.\n\nEine nachvollziehbare Bilanz ist nötig, um zu klären, ob Gelder zurückgegeben werden können und wie Anträge gestellt werden."
+        },
+        "zh": {
+          "title": "请公开查扣资产的去向和处理情况",
+          "body": "受害者和公众需要了解与 PlusToken 案相关查扣资产的可核实情况。我们呼吁中国有关部门及负责机构说明查扣了什么、由哪个部门管理，以及哪些法律决定适用于资产的使用或返还。\n\n清晰的资产说明是判断资金能否返还受害者以及如何申请的基础。"
+        },
+        "ja": {
+          "title": "押収資産の処理状況を公表してください",
+          "body": "被害者と市民には、PlusToken事件に関連して押収された資産について検証可能な説明が必要です。中国当局および担当機関に対し、何が押収され、どの機関が管理し、利用や返還にどの法的決定が適用されるのか公表するよう求めます。\n\n資金を被害者に返還できるか、どのように申請するかを明らかにするには、透明性のある資産報告が欠かせません。"
+        }
+      },
+      "id": "appeal-20261110-1101",
+      "published": "2026-11-10T11:01+00:00"
     }
   ],
   "templates": [
