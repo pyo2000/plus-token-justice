@@ -701,6 +701,33 @@
       },
       "id": "appeal-20261111-1113",
       "published": "2026-11-11T11:13+00:00"
+    },
+    {
+      "category": "Public appeal",
+      "translations": {
+        "en": {
+          "title": "Set a deadline for answers on victim restitution",
+          "body": "The long wait must lead to concrete answers. We ask Chinese authorities and the agencies responsible for the PlusToken case to set and publish a deadline for explaining the restitution process, the status of eligible assets, and the steps victims can take.\n\nVictims need a dependable timetable, not another open-ended promise. Return eligible funds as soon as the lawful process allows."
+        },
+        "ko": {
+          "title": "피해자 환급 답변의 기한을 정해 공개해 주세요",
+          "body": "오랜 기다림은 구체적인 답변으로 이어져야 합니다. 중국 당국과 플러스토큰 사건 담당 기관은 피해자 구제 절차와 반환 대상 자산의 현황, 피해자가 취할 수 있는 조치를 설명할 기한을 정해 공개해 주십시오.\n\n피해자에게 필요한 것은 기약 없는 약속이 아니라 신뢰할 수 있는 일정입니다. 법적 절차가 허용하는 대로 반환 대상 자금을 신속히 돌려주세요."
+        },
+        "de": {
+          "title": "Setzen Sie eine Frist für Antworten zur Entschädigung",
+          "body": "Aus dem langen Warten müssen konkrete Antworten folgen. Wir bitten die chinesischen Behörden und die zuständigen Stellen, eine Frist für Informationen zum Entschädigungsverfahren, zum Status rückgabefähiger Vermögenswerte und zu den nächsten Schritten für Betroffene festzulegen und zu veröffentlichen.\n\nBetroffene brauchen einen verlässlichen Zeitplan statt eines weiteren Versprechens ohne Ende. Geben Sie rückgabefähige Gelder zurück, sobald das rechtmäßige Verfahren es erlaubt."
+        },
+        "zh": {
+          "title": "请为受害者救济答复设定并公布期限",
+          "body": "漫长的等待应当换来具体答复。我们呼吁中国有关部门及 PlusToken 案负责机构设定并公布答复期限，说明救济程序、符合返还条件资产的状态，以及受害者可以采取的步骤。\n\n受害者需要可信的时间表，而不是没有期限的承诺。请在法律程序允许的范围内尽快返还符合条件的资金。"
+        },
+        "ja": {
+          "title": "被害者救済に関する回答期限を設定してください",
+          "body": "長い待機の末には具体的な回答が必要です。中国当局およびPlusToken事件の担当機関に対し、救済手続き、返還対象資産の状況、被害者が取れる手順について説明する期限を定め、公表するよう求めます。\n\n被害者に必要なのは期限のない約束ではなく、信頼できる予定です。法的手続きが認める範囲で、返還対象の資金を速やかに返してください。"
+        }
+      },
+      "id": "appeal-20261112-0814",
+      "published": "2026-11-12T08:14+00:00"
     }
   ],
   "templates": [
